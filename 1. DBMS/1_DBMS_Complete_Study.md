@@ -1,4 +1,14 @@
-# 📖 COMPREHENSIVE DATABASE MANAGEMENT SYSTEM (DBMS) LECTURE NOTES
+# [MCQ Practice Sheet](DBMS_260_MCQ_Sheet.md)  
+# [Back to Study Guide](../../README.md)
+#
+# ---
+#
+# # 📖 COMPREHENSIVE DATABASE MANAGEMENT SYSTEM (DBMS) LECTURE NOTES
+#
+# > **How to use:**
+# > 1. Read this theory file first for concepts and explanations.
+# > 2. After finishing, attempt the linked MCQ sheet for practice.
+# > 3. Use the README for the recommended study order.
 
 **Target Exams:** BPSC TRE (Computer Science) | UPPSC Polytechnic Lecturer | STET
 **Author:** Senior Computer Science Faculty
