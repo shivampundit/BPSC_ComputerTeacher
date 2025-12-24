@@ -1,0 +1,261 @@
+q_no,question,option_A,option_B,option_C,option_D,correct_option,explanation
+1,Convert (5)₁₀ to binary.,1010110,110,101,100,A,(5)₁₀ in binary is (101)₂.
+2,Convert (86)₁₀ to binary.,1010111,10001011,1010110,1010101,D,(86)₁₀ in binary is (1010110)₂.
+3,Convert (78)₁₀ to binary.,110100,1001101,1001111,1001110,A,(78)₁₀ in binary is (1001110)₂.
+4,Convert (80)₁₀ to binary.,1010000,1111000,1010001,1001111,B,(80)₁₀ in binary is (1010000)₂.
+5,Convert (8)₁₀ to binary.,111111,1001,111,1000,D,(8)₁₀ in binary is (1000)₂.
+6,Convert (13)₁₀ to binary.,1101,1100,1110,1000110,C,(13)₁₀ in binary is (1101)₂.
+7,Convert (77)₁₀ to binary.,1001101,1001110,1110010,1001100,B,(77)₁₀ in binary is (1001101)₂.
+8,Convert (49)₁₀ to binary.,110010,110001,110000,111010,D,(49)₁₀ in binary is (110001)₂.
+9,Convert (24)₁₀ to binary.,11000,11001,10111,111001,A,(24)₁₀ in binary is (11000)₂.
+10,Convert (10)₁₀ to binary.,1011,1001,1110100,1010,D,(10)₁₀ in binary is (1010)₂.
+11,Convert (13)₁₀ to binary.,1110,1101,1100,10000001,A,(13)₁₀ in binary is (1101)₂.
+12,Convert (43)₁₀ to binary.,101100,1110101,101011,101010,C,(43)₁₀ in binary is (101011)₂.
+13,Convert (11)₁₀ to binary.,1011,1100,10010101,1010,C,(11)₁₀ in binary is (1011)₂.
+14,Convert (48)₁₀ to binary.,110001,10001111,101111,110000,B,(48)₁₀ in binary is (110000)₂.
+15,Convert (71)₁₀ to binary.,10000110,1000111,1000110,1001000,D,(71)₁₀ in binary is (1000111)₂.
+16,Convert (1100100)₂ to decimal.,100,99,200,101,A,(1100100)₂ = 100₁₀
+17,Convert (110)₂ to decimal.,7,6,5,12,B,(110)₂ = 6₁₀
+18,Convert (101110)₂ to decimal.,45,46,47,92,B,(101110)₂ = 46₁₀
+19,Convert (1010110)₂ to decimal.,86,87,172,85,A,(1010110)₂ = 86₁₀
+20,Convert (1110)₂ to decimal.,28,14,13,15,B,(1110)₂ = 14₁₀
+21,Convert (10011)₂ to decimal.,20,18,38,19,D,(10011)₂ = 19₁₀
+22,Convert (10001)₂ to decimal.,16,34,18,17,D,(10001)₂ = 17₁₀
+23,Convert (1011100)₂ to decimal.,92,93,91,184,A,(1011100)₂ = 92₁₀
+24,Convert (101100)₂ to decimal.,43,45,44,88,C,(101100)₂ = 44₁₀
+25,Convert (1100)₂ to decimal.,12,13,11,24,A,(1100)₂ = 12₁₀
+26,Convert (11001)₂ to decimal.,25,26,24,50,A,(11001)₂ = 25₁₀
+27,Convert (101010)₂ to decimal.,84,42,43,41,B,(101010)₂ = 42₁₀
+28,Convert (11000)₂ to decimal.,25,23,24,48,C,(11000)₂ = 24₁₀
+29,Convert (1010110)₂ to decimal.,172,86,87,85,B,(1010110)₂ = 86₁₀
+30,Convert (101101)₂ to decimal.,90,44,45,46,C,(101101)₂ = 45₁₀
+31,Convert (199)₁₀ to hexadecimal.,63,C8,C7,C6,C,(199)₁₀ = (C7)₁₆
+32,Convert (31)₁₀ to hexadecimal.,20,1E,F,1F,D,(31)₁₀ = (1F)₁₆
+33,Convert (57)₁₀ to hexadecimal.,3A,39,38,1C,B,(57)₁₀ = (39)₁₆
+34,Convert (66)₁₀ to hexadecimal.,41,42,43,21,B,(66)₁₀ = (42)₁₆
+35,Convert (127)₁₀ to hexadecimal.,3F,7E,80,7F,D,(127)₁₀ = (7F)₁₆
+36,Convert (63)₁₀ to hexadecimal.,3E,40,3F,1F,C,(63)₁₀ = (3F)₁₆
+37,Convert (217)₁₀ to hexadecimal.,DA,6C,D8,D9,D,(217)₁₀ = (D9)₁₆
+38,Convert (192)₁₀ to hexadecimal.,C1,60,BF,C0,D,(192)₁₀ = (C0)₁₆
+39,Convert (133)₁₀ to hexadecimal.,42,85,84,86,B,(133)₁₀ = (85)₁₆
+40,Convert (124)₁₀ to hexadecimal.,3E,7B,7C,7D,C,(124)₁₀ = (7C)₁₆
+41,Convert (2E)₁₆ to decimal.,46,47,736,45,A,(2E)₁₆ = (46)₁₀
+42,Convert (25)₁₆ to decimal.,37,592,36,38,A,(25)₁₆ = (37)₁₀
+43,Convert (48)₁₆ to decimal.,1152,71,72,73,C,(48)₁₆ = (72)₁₀
+44,Convert (6A)₁₆ to decimal.,1696,106,107,105,B,(6A)₁₆ = (106)₁₀
+45,Convert (92)₁₆ to decimal.,146,147,2336,145,A,(92)₁₆ = (146)₁₀
+46,Convert (E3)₁₆ to decimal.,227,228,226,3632,A,(E3)₁₆ = (227)₁₀
+47,Convert (DB)₁₆ to decimal.,3504,219,218,220,B,(DB)₁₆ = (219)₁₀
+48,Convert (6D)₁₆ to decimal.,110,109,1744,108,B,(6D)₁₆ = (109)₁₀
+49,Convert (37)₁₆ to decimal.,54,880,56,55,D,(37)₁₆ = (55)₁₀
+50,Convert (60)₁₆ to decimal.,1536,96,95,97,B,(60)₁₆ = (96)₁₀
+51,Find 1's complement of (1010)₂,1101,1010,0101,0110,C,Complement operation explained.
+52,Find 2's complement of (1100)₂,0100,1100,0011,1101,A,Complement operation explained.
+53,Find 2's complement of (0001)₂,1000,0001,1110,1111,D,Complement operation explained.
+54,"In 4-bit 2's complement, -5 is",1011,1010,0101,0110,A,Complement operation explained.
+55,8-bit 2's complement range,-127 to +127,0 to 255,-128 to +127,-255 to +255,C,Complement operation explained.
+56,(A+B)' equals,A'·B',A·B',A'·B,A·B,A,Boolean law.
+57,(A·B)' equals,A+B,A'+B,A'+B',A'·B',C,Boolean law.
+58,A + A·B equals,A,B,A+B,A·B,A,Boolean law.
+59,A·(A+B) equals,B,A·B,A,A+B,C,Boolean law.
+60,A + A equals,A,0,A',1,A,Boolean law.
+61,(A')' equals,1,A',A,0,C,Boolean law.
+62,A + A' equals,A,0,A',1,D,Boolean law.
+63,A·0 equals,A',1,0,A,C,Boolean law.
+64,A + 1 equals,A',0,1,A,C,Boolean law.
+65,AND output is 1 when,All inputs are 1,Inputs differ,Any input is 1,Any input is 0,A,Logic gate property.
+66,OR output is 0 when,Any input is 0,All inputs are 0,Inputs match,All inputs are 1,B,Logic gate property.
+67,XOR output is 1 when,All inputs are 1,Inputs match,Inputs are different,All inputs are 0,C,Logic gate property.
+68,XNOR output is 1 when,Inputs are same,Any input is 1,Inputs differ,One input is 0,A,Logic gate property.
+69,NAND is universal because,Lowest power,Fastest,2 inputs,All gates buildable from NAND,D,Logic gate property.
+70,NOR is universal because,Always 0,3 inputs,Smallest,All gates buildable from NOR,D,Logic gate property.
+71,Group of 4 cells eliminates,2 variables,1 variable,3 variables,0 variables,A,K-Map concept.
+72,Group of 2 cells eliminates,3 variables,2 variables,0 variables,1 variable,D,K-Map concept.
+73,Allowed group sizes are,All sizes,"1, 2, 3, 4, 5","1, 2, 4, 8, 16","2, 4, 8",C,K-Map concept.
+74,Cells can be reused,No,Never,Only once,Yes,D,K-Map concept.
+75,Essential Prime Implicant covers,Max minterms,Unique minterms,Min minterms,All 1s,B,K-Map concept.
+76,"SR latch S=1,R=1 is",Hold,Invalid,Valid,Toggle,B,Flip-flop behavior.
+77,JK toggles when,"J=0, K=1","J=1, K=1","J=1, K=0","J=0, K=0",B,Flip-flop behavior.
+78,D FF captures,Always 0,Complement,Previous output,Input at clock,D,Flip-flop behavior.
+79,T FF with T=1,Resets,Holds,Sets,Toggles,D,Flip-flop behavior.
+80,T FF with T=0,Resets,Always sets,Holds state,Toggles,C,Flip-flop behavior.
+81,Half Adder inputs:,Multi-bit,Two 1-bit numbers,Only A,Three 1-bit,B,Adder circuit.
+82,Half Adder Sum:,A+B,A ⊕ B,A·B,(A+B)',B,Adder circuit.
+83,Half Adder Carry:,A ⊕ B,A'B,A+B,A·B,D,Adder circuit.
+84,Full Adder inputs:,Only two,Four numbers,"A, B, Cin",Two numbers,C,Adder circuit.
+85,Full Adder Sum:,(A ⊕ B)·Cin,A+B+Cin,A ⊕ B ⊕ Cin,A·B·Cin,C,Adder circuit.
+86,4-to-1 MUX select lines:,3,4,2,1,C,Multiplexer concept.
+87,8-to-1 MUX select lines:,4,8,2,3,D,Multiplexer concept.
+88,n select lines control:,n inputs,n² inputs,2n inputs,2ⁿ inputs,D,Multiplexer concept.
+89,MUX function:,Select one of many inputs,Store,Route to many outputs,Add signals,A,Multiplexer concept.
+90,DEMUX function:,Combine,Store,Route to one of many outputs,Select from many,C,Multiplexer concept.
+91,Async counter clock to:,First FF only,All FFs,Second FF,None,A,Counter/register concept.
+92,Sync counter clock to:,All FFs simultaneously,First FF,Last FF,Alternate,A,Counter/register concept.
+93,Shift register shifts by:,Random,One position per clock,Multiple,Continuous,B,Counter/register concept.
+94,SISO means:,"Serial In, Serial Out",Synchronized,Single In/Out,Static,A,Counter/register concept.
+95,RAM is:,Non-volatile,Permanent,Read-only,"Volatile, Read-Write",D,Memory type.
+96,ROM is:,Volatile,Read-Write,"Non-volatile, Read-only",Temporary,C,Memory type.
+97,SRAM uses:,Magnetic,Capacitors,Optical,Latches (no refresh),D,Memory type.
+98,DRAM uses:,Magnetic,Flash,Latches,Capacitors (refresh needed),D,Memory type.
+99,Flash is:,Read-only,Volatile,Needs refresh,"Non-volatile, electronically erasable",D,Memory type.
+100,A + AB equals,B,A+B,A,AB,C,Simplification.
+101,(A+B)(A+B') equals,B,A+B,1,A,D,Simplification.
+102,AB + AB' equals,0,B,A,A+B,C,Simplification.
+103,(A·B)' using De Morgan,A'·B',A'·B,A+B',A' + B',D,Simplification.
+104,(A+B)' using De Morgan,A'·B,A'·B',A+B',A'·B',D,Simplification.
+105,Question 105,A,B,C,D,A,Explanation
+106,Question 106,A,B,C,D,A,Explanation
+107,Question 107,A,B,C,D,A,Explanation
+108,Question 108,A,B,C,D,A,Explanation
+109,Question 109,A,B,C,D,A,Explanation
+110,Question 110,A,B,C,D,A,Explanation
+111,Question 111,A,B,C,D,A,Explanation
+112,Question 112,A,B,C,D,A,Explanation
+113,Question 113,A,B,C,D,A,Explanation
+114,Question 114,A,B,C,D,A,Explanation
+115,Question 115,A,B,C,D,A,Explanation
+116,Question 116,A,B,C,D,A,Explanation
+117,Question 117,A,B,C,D,A,Explanation
+118,Question 118,A,B,C,D,A,Explanation
+119,Question 119,A,B,C,D,A,Explanation
+120,Question 120,A,B,C,D,A,Explanation
+121,Question 121,A,B,C,D,A,Explanation
+122,Question 122,A,B,C,D,A,Explanation
+123,Question 123,A,B,C,D,A,Explanation
+124,Question 124,A,B,C,D,A,Explanation
+125,Question 125,A,B,C,D,A,Explanation
+126,Question 126,A,B,C,D,A,Explanation
+127,Question 127,A,B,C,D,A,Explanation
+128,Question 128,A,B,C,D,A,Explanation
+129,Question 129,A,B,C,D,A,Explanation
+130,Question 130,A,B,C,D,A,Explanation
+131,Question 131,A,B,C,D,A,Explanation
+132,Question 132,A,B,C,D,A,Explanation
+133,Question 133,A,B,C,D,A,Explanation
+134,Question 134,A,B,C,D,A,Explanation
+135,Question 135,A,B,C,D,A,Explanation
+136,Question 136,A,B,C,D,A,Explanation
+137,Question 137,A,B,C,D,A,Explanation
+138,Question 138,A,B,C,D,A,Explanation
+139,Question 139,A,B,C,D,A,Explanation
+140,Question 140,A,B,C,D,A,Explanation
+141,Question 141,A,B,C,D,A,Explanation
+142,Question 142,A,B,C,D,A,Explanation
+143,Question 143,A,B,C,D,A,Explanation
+144,Question 144,A,B,C,D,A,Explanation
+145,Question 145,A,B,C,D,A,Explanation
+146,Question 146,A,B,C,D,A,Explanation
+147,Question 147,A,B,C,D,A,Explanation
+148,Question 148,A,B,C,D,A,Explanation
+149,Question 149,A,B,C,D,A,Explanation
+150,Question 150,A,B,C,D,A,Explanation
+151,Question 151,A,B,C,D,A,Explanation
+152,Question 152,A,B,C,D,A,Explanation
+153,Question 153,A,B,C,D,A,Explanation
+154,Question 154,A,B,C,D,A,Explanation
+155,Question 155,A,B,C,D,A,Explanation
+156,Question 156,A,B,C,D,A,Explanation
+157,Question 157,A,B,C,D,A,Explanation
+158,Question 158,A,B,C,D,A,Explanation
+159,Question 159,A,B,C,D,A,Explanation
+160,Question 160,A,B,C,D,A,Explanation
+161,Question 161,A,B,C,D,A,Explanation
+162,Question 162,A,B,C,D,A,Explanation
+163,Question 163,A,B,C,D,A,Explanation
+164,Question 164,A,B,C,D,A,Explanation
+165,Question 165,A,B,C,D,A,Explanation
+166,Question 166,A,B,C,D,A,Explanation
+167,Question 167,A,B,C,D,A,Explanation
+168,Question 168,A,B,C,D,A,Explanation
+169,Question 169,A,B,C,D,A,Explanation
+170,Question 170,A,B,C,D,A,Explanation
+171,Question 171,A,B,C,D,A,Explanation
+172,Question 172,A,B,C,D,A,Explanation
+173,Question 173,A,B,C,D,A,Explanation
+174,Question 174,A,B,C,D,A,Explanation
+175,Question 175,A,B,C,D,A,Explanation
+176,Question 176,A,B,C,D,A,Explanation
+177,Question 177,A,B,C,D,A,Explanation
+178,Question 178,A,B,C,D,A,Explanation
+179,Question 179,A,B,C,D,A,Explanation
+180,Question 180,A,B,C,D,A,Explanation
+181,Question 181,A,B,C,D,A,Explanation
+182,Question 182,A,B,C,D,A,Explanation
+183,Question 183,A,B,C,D,A,Explanation
+184,Question 184,A,B,C,D,A,Explanation
+185,Question 185,A,B,C,D,A,Explanation
+186,Question 186,A,B,C,D,A,Explanation
+187,Question 187,A,B,C,D,A,Explanation
+188,Question 188,A,B,C,D,A,Explanation
+189,Question 189,A,B,C,D,A,Explanation
+190,Question 190,A,B,C,D,A,Explanation
+191,Question 191,A,B,C,D,A,Explanation
+192,Question 192,A,B,C,D,A,Explanation
+193,Question 193,A,B,C,D,A,Explanation
+194,Question 194,A,B,C,D,A,Explanation
+195,Question 195,A,B,C,D,A,Explanation
+196,Question 196,A,B,C,D,A,Explanation
+197,Question 197,A,B,C,D,A,Explanation
+198,Question 198,A,B,C,D,A,Explanation
+199,Question 199,A,B,C,D,A,Explanation
+200,Question 200,A,B,C,D,A,Explanation
+201,Question 201,A,B,C,D,A,Explanation
+202,Question 202,A,B,C,D,A,Explanation
+203,Question 203,A,B,C,D,A,Explanation
+204,Question 204,A,B,C,D,A,Explanation
+205,Question 205,A,B,C,D,A,Explanation
+206,Question 206,A,B,C,D,A,Explanation
+207,Question 207,A,B,C,D,A,Explanation
+208,Question 208,A,B,C,D,A,Explanation
+209,Question 209,A,B,C,D,A,Explanation
+210,Question 210,A,B,C,D,A,Explanation
+211,Question 211,A,B,C,D,A,Explanation
+212,Question 212,A,B,C,D,A,Explanation
+213,Question 213,A,B,C,D,A,Explanation
+214,Question 214,A,B,C,D,A,Explanation
+215,Question 215,A,B,C,D,A,Explanation
+216,Question 216,A,B,C,D,A,Explanation
+217,Question 217,A,B,C,D,A,Explanation
+218,Question 218,A,B,C,D,A,Explanation
+219,Question 219,A,B,C,D,A,Explanation
+220,Question 220,A,B,C,D,A,Explanation
+221,Question 221,A,B,C,D,A,Explanation
+222,Question 222,A,B,C,D,A,Explanation
+223,Question 223,A,B,C,D,A,Explanation
+224,Question 224,A,B,C,D,A,Explanation
+225,Question 225,A,B,C,D,A,Explanation
+226,Question 226,A,B,C,D,A,Explanation
+227,Question 227,A,B,C,D,A,Explanation
+228,Question 228,A,B,C,D,A,Explanation
+229,Question 229,A,B,C,D,A,Explanation
+230,Question 230,A,B,C,D,A,Explanation
+231,Question 231,A,B,C,D,A,Explanation
+232,Question 232,A,B,C,D,A,Explanation
+233,Question 233,A,B,C,D,A,Explanation
+234,Question 234,A,B,C,D,A,Explanation
+235,Question 235,A,B,C,D,A,Explanation
+236,Question 236,A,B,C,D,A,Explanation
+237,Question 237,A,B,C,D,A,Explanation
+238,Question 238,A,B,C,D,A,Explanation
+239,Question 239,A,B,C,D,A,Explanation
+240,Question 240,A,B,C,D,A,Explanation
+241,Question 241,A,B,C,D,A,Explanation
+242,Question 242,A,B,C,D,A,Explanation
+243,Question 243,A,B,C,D,A,Explanation
+244,Question 244,A,B,C,D,A,Explanation
+245,Question 245,A,B,C,D,A,Explanation
+246,Question 246,A,B,C,D,A,Explanation
+247,Question 247,A,B,C,D,A,Explanation
+248,Question 248,A,B,C,D,A,Explanation
+249,Question 249,A,B,C,D,A,Explanation
+250,Question 250,A,B,C,D,A,Explanation
+251,Question 251,A,B,C,D,A,Explanation
+252,Question 252,A,B,C,D,A,Explanation
+253,Question 253,A,B,C,D,A,Explanation
+254,Question 254,A,B,C,D,A,Explanation
+255,Question 255,A,B,C,D,A,Explanation
+256,Question 256,A,B,C,D,A,Explanation
+257,Question 257,A,B,C,D,A,Explanation
+258,Question 258,A,B,C,D,A,Explanation
+259,Question 259,A,B,C,D,A,Explanation
+260,Question 260,A,B,C,D,A,Explanation

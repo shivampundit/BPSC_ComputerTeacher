@@ -1,0 +1,211 @@
+q_no,question,option_A,option_B,option_C,option_D,correct_option
+1,HTTPS uses which port?,22,443,80,21,B
+2,Class C default subnet mask is,255.0.0.0,255.255.255.0,255.255.255.255,255.255.0.0,B
+3,Slow Start is a mechanism of?,Ethernet,TCP Congestion Control,IP Routing,UDP,B
+4,UDP is,Slow,Connection-oriented,Reliable,Connectionless,D
+5,Proxy server is used for?,Email,Hiding client IP / Caching,DNS resolution,Routing,B
+6,Switch is a,Passive device,Broadcast device (like Hub),Unicast device,Network layer device,C
+7,TCP is?,Connectionless,Unreliable,Connection-oriented,Stateless,C
+8,Hamming code is used for,Routing,Error Correction,Framing,Error Detection only,B
+9,HTTPS uses which port?,443,22,21,80,A
+10,IPv6 address length is,64 bits,256 bits,128 bits,32 bits,C
+11,Repeater operates at which layer?,Transport,Physical Layer,Network,Data Link,B
+12,Loopback address in IPv4 is,255.0.0.0/8,10.0.0.0/8,127.0.0.0/8,192.168.0.0/16,C
+13,OSPF uses which algorithm?,Bellman Ford,Floyd Warshall,Path Vector,Dijkstra (Link State),D
+14,UDP is,Connectionless,Reliable,Slow,Connection-oriented,A
+15,Which network topology is most robust?,Bus,Star,Mesh,Ring,C
+16,Flow control mechanism 'Stop and Wait' is,Most efficient,Used in GigE,Simplest but inefficient,Complex,C
+17,RSA is an example of,Block Cipher,Symmetric Key,Hash Function,Asymmetric Key Cryptography,D
+18,RIP uses which algorithm?,Link State,Distance Vector,Path Vector,Dijkstra,B
+19,Which protocol is used for email sending?,POP3,HTTP,IMAP,SMTP,D
+20,Which layer provides encryption/compression?,Application,Transport,Presentation,Session,C
+21,Hamming code is used for?,Framing,Error Correction,Routing,Error Detection only,B
+22,Which cable supports highest bandwidth?,Twisted Pair,UTP,Fiber Optic,Coaxial,C
+23,Flow control mechanism 'Stop and Wait' is,Used in GigE,Complex,Most efficient,Simplest but inefficient,D
+24,TCP/IP model has how many layers?,5,4,7,3,B
+25,Ping command uses which protocol?,UDP,ARP,ICMP,TCP,C
+26,TCP is?,Stateless,Unreliable,Connection-oriented,Connectionless,C
+27,HTTPS uses which port?,21,443,80,22,B
+28,TCP/IP model has how many layers?,3,4,5,7,B
+29,Router operates at which layer?,Network Layer,Transport,Session,Data Link,A
+30,Router operates at which layer?,Session,Transport,Data Link,Network Layer,D
+31,Multiplexing used in fiber optics is,FDM,CDM,TDM,WDM,D
+32,CRC is used for,Flow Control,Encryption,Error Correction,Error Detection,D
+33,Which protocol is used for email sending?,SMTP,POP3,IMAP,HTTP,A
+34,OSPF uses which algorithm?,Floyd Warshall,Bellman Ford,Dijkstra (Link State),Path Vector,C
+35,URL stands for?,Universal Resource Locator,Universal Resource Link,Uniform Resource Locator,Uniform Resource Link,C
+36,Which layer provides encryption/compression?,Presentation,Session,Transport,Application,A
+37,Flow control mechanism 'Stop and Wait' is?,Simplest but inefficient,Complex,Used in GigE,Most efficient,A
+38,Which protocol is used for email retrieval?,DNS,POP3 / IMAP,SMTP,FTP,B
+39,HTTPS uses which port?,21,80,22,443,D
+40,IPv6 address length is,256 bits,32 bits,128 bits,64 bits,C
+41,Repeater operates at which layer?,Transport,Network,Data Link,Physical Layer,D
+42,RIP uses which algorithm?,Path Vector,Dijkstra,Distance Vector,Link State,C
+43,CRC is used for,Error Detection,Error Correction,Flow Control,Encryption,A
+44,Hamming code is used for,Error Detection only,Framing,Error Correction,Routing,C
+45,Bridge operates at which layer?,Physical,Data Link Layer,Network,Transport,B
+46,Which cable supports highest bandwidth?,Coaxial,Fiber Optic,UTP,Twisted Pair,B
+47,Which key is kept secret in asymmetric cryptography?,Session Key,Shared Key,Public Key,Private Key,D
+48,Which protocol is used for email retrieval?,DNS,FTP,SMTP,POP3 / IMAP,D
+49,URL stands for?,Uniform Resource Locator,Universal Resource Link,Universal Resource Locator,Uniform Resource Link,A
+50,Router operates at which layer?,Data Link,Session,Transport,Network Layer,D
+51,Firewall is used for,Routing only,Amplification,Switching only,Packet filtering / Security,D
+52,Multiplexing used in fiber optics is,FDM,CDM,WDM,TDM,C
+53,Which key is kept secret in asymmetric cryptography?,Session Key,Shared Key,Public Key,Private Key,D
+54,IPv6 address length is,32 bits,128 bits,256 bits,64 bits,B
+55,RSA is an example of,Block Cipher,Asymmetric Key Cryptography,Hash Function,Symmetric Key,B
+56,Hamming code is used for,Error Detection only,Routing,Error Correction,Framing,C
+57,TCP/IP model has how many layers?,7,3,5,4,D
+58,Bridge operates at which layer?,Network,Transport,Data Link Layer,Physical,C
+59,IPv6 address length is,128 bits,64 bits,32 bits,256 bits,A
+60,Which layer is responsible for process-to-process delivery?,Network,Transport,Data Link,Session,B
+61,Which cable supports highest bandwidth?,UTP,Coaxial,Fiber Optic,Twisted Pair,C
+62,Firewall is used for,Switching only,Packet filtering / Security,Routing only,Amplification,B
+63,RIP uses which algorithm?,Dijkstra,Distance Vector,Link State,Path Vector,B
+64,Hamming code is used for?,Routing,Error Correction,Error Detection only,Framing,B
+65,Which network topology is most robust?,Ring,Star,Mesh,Bus,C
+66,TCP is,Connection-oriented,Stateless,Unreliable,Connectionless,A
+67,Start and Stop bits are used in,Simplex,Synchronous,Asynchronous Transmission,Parallel,C
+68,IPv6 address length is?,32 bits,128 bits,256 bits,64 bits,B
+69,Start and Stop bits are used in?,Parallel,Asynchronous Transmission,Simplex,Synchronous,B
+70,Router operates at which layer?,Network Layer,Data Link,Session,Transport,A
+71,Start and Stop bits are used in?,Asynchronous Transmission,Synchronous,Parallel,Simplex,A
+72,URL stands for,Uniform Resource Locator,Universal Resource Locator,Universal Resource Link,Uniform Resource Link,A
+73,A network of networks is called?,Internet,Intranet,Extranet,LAN,A
+74,Hamming code is used for,Error Detection only,Framing,Routing,Error Correction,D
+75,Repeater operates at which layer?,Physical Layer,Transport,Data Link,Network,A
+76,RSA is an example of?,Symmetric Key,Asymmetric Key Cryptography,Hash Function,Block Cipher,B
+77,Slow Start is a mechanism of?,IP Routing,Ethernet,UDP,TCP Congestion Control,D
+78,Which network topology is most robust?,Ring,Star,Mesh,Bus,C
+79,Hamming code is used for,Framing,Error Correction,Error Detection only,Routing,B
+80,UDP is?,Reliable,Connection-oriented,Connectionless,Slow,C
+81,DNS uses which port?,53,25,110,80,A
+82,Which layer is responsible for process-to-process delivery?,Network,Transport,Data Link,Session,B
+83,Which key is kept secret in asymmetric cryptography?,Private Key,Session Key,Shared Key,Public Key,A
+84,IPv6 address length is,128 bits,256 bits,64 bits,32 bits,A
+85,IPv6 address length is,64 bits,256 bits,128 bits,32 bits,C
+86,Flow control mechanism 'Stop and Wait' is,Complex,Used in GigE,Most efficient,Simplest but inefficient,D
+87,Which protocol is used for email sending?,HTTP,IMAP,SMTP,POP3,C
+88,TCP is?,Connection-oriented,Stateless,Unreliable,Connectionless,A
+89,OSPF uses which algorithm?,Bellman Ford,Floyd Warshall,Dijkstra (Link State),Path Vector,C
+90,URL stands for,Universal Resource Link,Universal Resource Locator,Uniform Resource Locator,Uniform Resource Link,C
+91,Bridge operates at which layer?,Physical,Data Link Layer,Transport,Network,B
+92,Proxy server is used for?,Hiding client IP / Caching,Email,DNS resolution,Routing,A
+93,IPv4 address length is,48 bits,128 bits,32 bits,64 bits,C
+94,CRC is used for,Flow Control,Error Detection,Encryption,Error Correction,B
+95,Router operates at which layer?,Network Layer,Transport,Session,Data Link,A
+96,HTTPS uses which port?,22,443,21,80,B
+97,Firewall is used for,Routing only,Packet filtering / Security,Amplification,Switching only,B
+98,CRC is used for?,Flow Control,Error Correction,Error Detection,Encryption,C
+99,TCP is,Stateless,Connectionless,Connection-oriented,Unreliable,C
+100,DNS uses which port?,53,80,110,25,A
+101,Which layer is responsible for process-to-process delivery?,Data Link,Transport,Session,Network,B
+102,URL stands for?,Universal Resource Locator,Universal Resource Link,Uniform Resource Locator,Uniform Resource Link,C
+103,Which layer is responsible for process-to-process delivery?,Transport,Network,Session,Data Link,A
+104,Private IP address range for Class C is,192.168.0.0 - 192.168.255.255,10.0.0.0 - 10.255.255.255,127.0.0.1,172.16.0.0 - 172.31.255.255,A
+105,Which layer is responsible for process-to-process delivery?,Network,Data Link,Session,Transport,D
+106,Which key is kept secret in asymmetric cryptography?,Shared Key,Session Key,Private Key,Public Key,C
+107,Bridge operates at which layer?,Network,Transport,Physical,Data Link Layer,D
+108,DNS uses which port?,110,53,80,25,B
+109,Flow control mechanism 'Stop and Wait' is,Complex,Most efficient,Simplest but inefficient,Used in GigE,C
+110,Ping command uses which protocol?,ICMP,TCP,ARP,UDP,A
+111,Which layer is responsible for process-to-process delivery?,Session,Network,Transport,Data Link,C
+112,Which protocol is used for email retrieval?,POP3 / IMAP,SMTP,DNS,FTP,A
+113,URL stands for,Universal Resource Link,Uniform Resource Link,Universal Resource Locator,Uniform Resource Locator,D
+114,IPv6 address length is,64 bits,256 bits,128 bits,32 bits,C
+115,IPv6 address length is,64 bits,256 bits,32 bits,128 bits,D
+116,Flow control mechanism 'Stop and Wait' is?,Most efficient,Complex,Used in GigE,Simplest but inefficient,D
+117,Which network topology is most robust?,Bus,Ring,Star,Mesh,D
+118,A network of networks is called?,Extranet,LAN,Intranet,Internet,D
+119,TCP is,Unreliable,Connectionless,Stateless,Connection-oriented,D
+120,Bridge operates at which layer?,Network,Physical,Transport,Data Link Layer,D
+121,CRC is used for,Error Correction,Error Detection,Encryption,Flow Control,B
+122,Which cable supports highest bandwidth?,Twisted Pair,Fiber Optic,UTP,Coaxial,B
+123,Slow Start is a mechanism of,UDP,TCP Congestion Control,Ethernet,IP Routing,B
+124,Which protocol is used for email retrieval?,FTP,POP3 / IMAP,SMTP,DNS,B
+125,RSA is an example of,Block Cipher,Symmetric Key,Asymmetric Key Cryptography,Hash Function,C
+126,TCP/IP model has how many layers?,5,7,3,4,D
+127,RIP uses which algorithm?,Link State,Distance Vector,Path Vector,Dijkstra,B
+128,Ping command uses which protocol?,TCP,UDP,ICMP,ARP,C
+129,Repeater operates at which layer?,Transport,Network,Physical Layer,Data Link,C
+130,HTTPS uses which port?,443,22,21,80,A
+131,HTTPS uses which port?,443,21,80,22,A
+132,HTTPS uses which port?,22,21,80,443,D
+133,Which network topology is most robust?,Bus,Ring,Star,Mesh,D
+134,Which cable supports highest bandwidth?,UTP,Twisted Pair,Fiber Optic,Coaxial,C
+135,Hamming code is used for,Error Correction,Error Detection only,Routing,Framing,A
+136,Start and Stop bits are used in,Asynchronous Transmission,Parallel,Synchronous,Simplex,A
+137,HTTPS uses which port?,443,21,80,22,A
+138,Slow Start is a mechanism of?,TCP Congestion Control,IP Routing,Ethernet,UDP,A
+139,A network of networks is called?,Internet,Intranet,LAN,Extranet,A
+140,RSA is an example of,Asymmetric Key Cryptography,Symmetric Key,Block Cipher,Hash Function,A
+141,Flow control mechanism 'Stop and Wait' is,Used in GigE,Complex,Most efficient,Simplest but inefficient,D
+142,Which key is kept secret in asymmetric cryptography?,Public Key,Private Key,Session Key,Shared Key,B
+143,Slow Start is a mechanism of?,TCP Congestion Control,IP Routing,Ethernet,UDP,A
+144,RIP uses which algorithm?,Link State,Distance Vector,Path Vector,Dijkstra,B
+145,Start and Stop bits are used in,Synchronous,Parallel,Asynchronous Transmission,Simplex,C
+146,Multiplexing used in fiber optics is?,FDM,TDM,CDM,WDM,D
+147,Private IP address range for Class C is,172.16.0.0 - 172.31.255.255,127.0.0.1,192.168.0.0 - 192.168.255.255,10.0.0.0 - 10.255.255.255,C
+148,RIP uses which algorithm?,Link State,Path Vector,Distance Vector,Dijkstra,C
+149,Which key is kept secret in asymmetric cryptography?,Public Key,Session Key,Shared Key,Private Key,D
+150,IPv6 address length is,64 bits,128 bits,32 bits,256 bits,B
+151,Multiplexing used in fiber optics is,FDM,TDM,WDM,CDM,C
+152,Which key is kept secret in asymmetric cryptography?,Public Key,Private Key,Shared Key,Session Key,B
+153,RIP uses which algorithm?,Dijkstra,Path Vector,Distance Vector,Link State,C
+154,Repeater operates at which layer?,Physical Layer,Data Link,Network,Transport,A
+155,Proxy server is used for,DNS resolution,Routing,Hiding client IP / Caching,Email,C
+156,Switch is a,Broadcast device (like Hub),Network layer device,Passive device,Unicast device,D
+157,Which layer is responsible for process-to-process delivery?,Session,Network,Data Link,Transport,D
+158,CRC is used for,Error Detection,Flow Control,Encryption,Error Correction,A
+159,Start and Stop bits are used in?,Parallel,Asynchronous Transmission,Synchronous,Simplex,B
+160,RIP uses which algorithm?,Dijkstra,Link State,Path Vector,Distance Vector,D
+161,Ping command uses which protocol?,UDP,ARP,ICMP,TCP,C
+162,Private IP address range for Class C is,10.0.0.0 - 10.255.255.255,172.16.0.0 - 172.31.255.255,127.0.0.1,192.168.0.0 - 192.168.255.255,D
+163,Which layer provides encryption/compression?,Presentation,Transport,Session,Application,A
+164,RIP uses which algorithm?,Link State,Dijkstra,Path Vector,Distance Vector,D
+165,Which layer is responsible for process-to-process delivery?,Network,Session,Transport,Data Link,C
+166,HTTPS uses which port?,443,21,22,80,A
+167,Hamming code is used for,Framing,Error Detection only,Error Correction,Routing,C
+168,IPv6 address length is,128 bits,64 bits,32 bits,256 bits,A
+169,OSPF uses which algorithm?,Bellman Ford,Floyd Warshall,Dijkstra (Link State),Path Vector,C
+170,HTTPS uses which port?,22,443,21,80,B
+171,TCP is,Unreliable,Connectionless,Connection-oriented,Stateless,C
+172,Slow Start is a mechanism of?,Ethernet,IP Routing,UDP,TCP Congestion Control,D
+173,IPv4 address length is,64 bits,48 bits,128 bits,32 bits,D
+174,Router operates at which layer?,Session,Network Layer,Data Link,Transport,B
+175,URL stands for,Universal Resource Link,Uniform Resource Link,Universal Resource Locator,Uniform Resource Locator,D
+176,Repeater operates at which layer?,Data Link,Network,Physical Layer,Transport,C
+177,Which layer is responsible for process-to-process delivery?,Network,Session,Data Link,Transport,D
+178,RIP uses which algorithm?,Dijkstra,Path Vector,Distance Vector,Link State,C
+179,Repeater operates at which layer?,Network,Data Link,Physical Layer,Transport,C
+180,Which protocol is used for email retrieval?,FTP,SMTP,DNS,POP3 / IMAP,D
+181,RIP uses which algorithm?,Link State,Dijkstra,Distance Vector,Path Vector,C
+182,Class C default subnet mask is,255.255.255.255,255.0.0.0,255.255.0.0,255.255.255.0,D
+183,Which network topology is most robust?,Star,Bus,Mesh,Ring,C
+184,TCP/IP model has how many layers?,3,5,7,4,D
+185,Bridge operates at which layer?,Network,Physical,Data Link Layer,Transport,C
+186,HTTPS uses which port?,80,443,22,21,B
+187,Which cable supports highest bandwidth?,Twisted Pair,Fiber Optic,UTP,Coaxial,B
+188,RIP uses which algorithm?,Distance Vector,Link State,Dijkstra,Path Vector,A
+189,Which network topology is most robust?,Bus,Ring,Mesh,Star,C
+190,Private IP address range for Class C is,127.0.0.1,192.168.0.0 - 192.168.255.255,172.16.0.0 - 172.31.255.255,10.0.0.0 - 10.255.255.255,B
+191,Which layer provides encryption/compression?,Presentation,Application,Transport,Session,A
+192,Which network topology is most robust?,Bus,Mesh,Star,Ring,B
+193,OSI model has how many layers?,4,6,5,7,D
+194,IPv6 address length is,64 bits,256 bits,32 bits,128 bits,D
+195,Switch is a,Unicast device,Broadcast device (like Hub),Passive device,Network layer device,A
+196,TCP/IP model has how many layers?,5,4,7,3,B
+197,Which key is kept secret in asymmetric cryptography?,Public Key,Private Key,Session Key,Shared Key,B
+198,Slow Start is a mechanism of?,TCP Congestion Control,IP Routing,UDP,Ethernet,A
+199,Which key is kept secret in asymmetric cryptography?,Private Key,Public Key,Shared Key,Session Key,A
+200,DNS uses which port?,80,25,110,53,D
+201,Repeater operates at which layer?,Physical Layer,Data Link,Transport,Network,A
+202,Router operates at which layer?,Network Layer,Transport,Data Link,Session,A
+203,Which layer provides encryption/compression?,Transport,Presentation,Application,Session,B
+204,Proxy server is used for,Hiding client IP / Caching,Email,Routing,DNS resolution,A
+205,Hamming code is used for,Framing,Routing,Error Correction,Error Detection only,C
+206,Which protocol is used for email sending?,POP3,HTTP,SMTP,IMAP,C
+207,HTTPS uses which port?,22,80,443,21,C
+208,UDP is,Connection-oriented,Slow,Reliable,Connectionless,D
+209,Firewall is used for,Routing only,Switching only,Packet filtering / Security,Amplification,C
+210,OSPF uses which algorithm?,Path Vector,Bellman Ford,Dijkstra (Link State),Floyd Warshall,C

@@ -1,0 +1,321 @@
+q_no,question,option_A,option_B,option_C,option_D,correct_option,explanation
+1,Balance factor in AVL tree is,Height(left) - Height(right),Nodes(left)-Nodes(right),Key difference,Degree difference,A,Balance factor uses heights.
+2,Quick sort worst time is,O(log n),O(n),O(n log n),O(n^2),D,Worst pivot leads to skewed partitions.
+3,Linear probing is,Chaining,Sorting,Searching,Open addressing,D,Probe next slots sequentially.
+4,Quick sort average time is?,O(log n),O(n^2),O(n),O(n log n),D,Average balanced partitions.
+5,Linear probing is,Chaining,Searching,Sorting,Open addressing,D,Probe next slots sequentially.
+6,Heap sort time complexity is,O(n^2),O(n log n),O(n),O(log n),B,Heap operations are log n.
+7,Which sorting algorithm is stable and guaranteed O(n log n)?,Selection sort,Quick sort,Heap sort,Merge sort,D,Merge sort is stable with O(n log n) worst-case.
+8,"In a 2-way set associative cache (analogy), each set can hold?",1 block,4 blocks,2 blocks,V blocks,C,k-way means k lines per set.
+9,Backtracking is used in,Counting sort,Binary search,N-Queens problem,Prim's algorithm,C,Backtracking explores and backtracks decisions.
+10,Preorder traversal is,Left-Root-Right,Root-Left-Right,Left-Right-Root,Right-Root-Left,B,Definition of preorder.
+11,Topological sorting is possible only in,Tree only,DAG,Undirected graph,Complete graph,B,Topological order exists for DAG.
+12,Circular linked list last node points to,NULL,Middle node,Random node,First node,D,Circular list loops back to start.
+13,Big-Theta (Θ) represents,Tight bound,Upper bound only,No bound,Lower bound only,A,Θ gives an asymptotically tight bound.
+14,Big-Omega (Ω) represents?,No bound,Upper bound,Tight bound,Lower bound,D,Ω represents lower bound.
+15,BFS time using adjacency list is?,O(V+E),O(E^2),O(V^2),O(log V),A,Visits vertices and edges once.
+16,Dijkstra algorithm requires,Negative edges allowed,Non-negative edge weights,Only DAG,Only unweighted graphs,B,Standard Dijkstra fails with negative weights.
+17,Deleting an element from the middle of an array of size n takes,O(n),O(n log n),O(1),O(log n),A,Shifting elements is required.
+18,Deque supports,Insertion/deletion at both ends,Only at front,Only at rear,Only sorting,A,Deque is double-ended.
+19,Big-Omega (Ω) represents,Lower bound,Tight bound,Upper bound,No bound,A,Ω represents lower bound.
+20,Maximum children per node in binary tree is?,Any,3,1,2,D,Binary tree has at most two children.
+21,Merge sort time complexity is,O(n^2),O(n log n),O(log n),O(n),B,Divide and conquer.
+22,Doubly linked list node contains,Only Prev pointer,No pointers,Only Next pointer,Prev and Next pointers,D,DLL stores links both ways.
+23,BFS time using adjacency list is,O(log V),O(V+E),O(E^2),O(V^2),B,Visits vertices and edges once.
+24,Stack is based on,LIFO,FIFO,Priority,Random,A,"Last in, first out."
+25,Adjacency list space is?,O(E^2),O(V+E),O(log V),O(V^2),B,List stores edges.
+26,Inorder traversal is,Root-Right-Left,Left-Root-Right,Root-Left-Right,Left-Right-Root,B,Definition of inorder.
+27,Greedy algorithms make,Globally optimal by brute force,Only recursive choices,Random choices,Locally optimal choices,D,Greedy chooses best immediate option.
+28,Chaining resolves collision using,Stacks,Queues,Trees only,Linked lists,D,Each slot stores a list of keys.
+29,Doubly linked list node contains,Prev and Next pointers,No pointers,Only Prev pointer,Only Next pointer,A,DLL stores links both ways.
+30,Heap sort time complexity is?,O(n),O(n^2),O(n log n),O(log n),C,Heap operations are log n.
+31,BST search complexity (average case) is,O(n),O(1),O(log n),O(n log n),C,Balanced BST has logarithmic height.
+32,Worst-case height of BST with n nodes is?,n-1,sqrt(n),log n,n/2,A,Skewed BST becomes a chain.
+33,A table of size 2^16 has how many slots?,2^{bits-1},2^{bits+1},65536,bits,C,2^k counts number of slots.
+34,Time complexity of binary search is?,O(log n),O(n log n),O(1),O(n),A,Binary search halves the search space each step.
+35,"In a 4-way set associative cache (analogy), each set can hold",4 blocks,8 blocks,1 block,V blocks,A,k-way means k lines per set.
+36,Big-Omega (Ω) represents,Lower bound,No bound,Tight bound,Upper bound,A,Ω represents lower bound.
+37,"In a 2-way set associative cache (analogy), each set can hold",4 blocks,2 blocks,1 block,V blocks,B,k-way means k lines per set.
+38,"In a 8-way set associative cache (analogy), each set can hold",8 blocks,V blocks,1 block,16 blocks,A,k-way means k lines per set.
+39,Quick sort worst time is,O(n log n),O(log n),O(n^2),O(n),C,Worst pivot leads to skewed partitions.
+40,Dynamic array (like vector) grows by,Only hashing,Reallocation and copying,No copying needed,Only linked pointers,B,Dynamic arrays resize by reallocating and copying.
+41,Postorder traversal is,Left-Right-Root,Root-Left-Right,Root-Right-Left,Left-Root-Right,A,Definition of postorder.
+42,"In an array-based stack, overflow occurs when",Queue is full,Top becomes -1,Top reaches max size,Heap is full,C,Overflow means no more space.
+43,BFS uses,Queue,Heap,Stack,Hash,A,BFS explores level by level.
+44,Adjacency matrix space is?,O(V+E),O(E),O(V^2),O(V),C,Matrix stores all pairs.
+45,"In a 2-way set associative cache (analogy), each set can hold?",V blocks,4 blocks,2 blocks,1 block,C,k-way means k lines per set.
+46,Heap sort time complexity is,O(n^2),O(n log n),O(log n),O(n),B,Heap operations are log n.
+47,Chaining resolves collision using,Trees only,Stacks,Queues,Linked lists,D,Each slot stores a list of keys.
+48,"In a BST, inorder traversal gives?",Random order,Reverse postorder,Level order,Sorted order,D,Inorder visits keys in increasing order.
+49,KMP algorithm is used for,Hash table resizing,Graph traversal,Sorting strings,Pattern matching in strings,D,KMP avoids rechecking characters.
+50,Preorder traversal is?,Root-Left-Right,Left-Right-Root,Right-Root-Left,Left-Root-Right,A,Definition of preorder.
+51,Adjacency list space is?,O(log V),O(E^2),O(V^2),O(V+E),D,List stores edges.
+52,DFS uses,Deque only,Heap,Stack/Recursion,Queue,C,DFS uses stack implicitly via recursion.
+53,Big-Theta (Θ) represents,Lower bound only,Tight bound,Upper bound only,No bound,B,Θ gives an asymptotically tight bound.
+54,Postorder traversal is,Left-Root-Right,Left-Right-Root,Root-Left-Right,Root-Right-Left,B,Definition of postorder.
+55,Quick sort worst time is,O(log n),O(n log n),O(n),O(n^2),D,Worst pivot leads to skewed partitions.
+56,Load factor (α) of hash table is,m/n,n-m,n+m,n/m,D,"n elements, m slots."
+57,Quick sort average time is?,O(log n),O(n),O(n log n),O(n^2),C,Average balanced partitions.
+58,Balance factor in AVL tree is,Nodes(left)-Nodes(right),Key difference,Height(left) - Height(right),Degree difference,C,Balance factor uses heights.
+59,"In an array-based stack, overflow occurs when",Top becomes -1,Heap is full,Queue is full,Top reaches max size,D,Overflow means no more space.
+60,Greedy algorithms make,Only recursive choices,Locally optimal choices,Random choices,Globally optimal by brute force,B,Greedy chooses best immediate option.
+61,Time complexity of binary search is?,O(n),O(1),O(n log n),O(log n),D,Binary search halves the search space each step.
+62,Load factor (α) of hash table is?,n/m,m/n,n+m,n-m,A,"n elements, m slots."
+63,Insert in binary heap takes?,O(1),O(log n),O(n log n),O(n),B,Percolate up.
+64,Heap sort time complexity is,O(n log n),O(n^2),O(n),O(log n),A,Heap operations are log n.
+65,DFS uses,Stack/Recursion,Heap,Queue,Deque only,A,DFS uses stack implicitly via recursion.
+66,Merge sort follows,Divide and conquer,Brute force only,Backtracking,Greedy,A,Splits and merges.
+67,LPS array in KMP stands for,Least Prefix Sum,Longest Path Search,Local Pattern Score,Longest Proper Prefix which is also Suffix,D,KMP preprocessing array.
+68,Time complexity of binary search is?,O(log n),O(n log n),O(n),O(1),A,Binary search halves the search space each step.
+69,Stack is based on?,Priority,FIFO,Random,LIFO,D,"Last in, first out."
+70,Insert in binary heap takes,O(n log n),O(n),O(log n),O(1),C,Percolate up.
+71,Adjacency matrix space is,O(V+E),O(V^2),O(V),O(E),B,Matrix stores all pairs.
+72,Tail recursion can often be optimized into?,Hashing,Iteration,Graph,Sorting,B,Tail-call optimization converts recursion to loop.
+73,Level order traversal uses,Queue,Hash table,Stack,Recursion only,A,Level order is BFS on trees.
+74,Postorder traversal is,Left-Root-Right,Root-Left-Right,Root-Right-Left,Left-Right-Root,D,Definition of postorder.
+75,Linear probing is,Searching,Sorting,Open addressing,Chaining,C,Probe next slots sequentially.
+76,Deque supports?,Only sorting,Only at front,Insertion/deletion at both ends,Only at rear,C,Deque is double-ended.
+77,Linear probing is,Sorting,Chaining,Open addressing,Searching,C,Probe next slots sequentially.
+78,Big-Omega (Ω) represents,Tight bound,No bound,Upper bound,Lower bound,D,Ω represents lower bound.
+79,Preorder traversal is,Left-Right-Root,Root-Left-Right,Left-Root-Right,Right-Root-Left,B,Definition of preorder.
+80,BFS time using adjacency list is,O(V+E),O(log V),O(V^2),O(E^2),A,Visits vertices and edges once.
+81,Array access by index is,O(n),O(log n),O(1),O(n log n),C,Direct address computation.
+82,Topological sorting is possible only in,Complete graph,DAG,Tree only,Undirected graph,B,Topological order exists for DAG.
+83,A table of size 2^24 has how many slots?,16777216,2^{bits+1},2^{bits-1},bits,A,2^k counts number of slots.
+84,Searching in an unsorted linked list takes,O(1),O(log n),O(n log n),O(n),D,Sequential traversal.
+85,Load factor (α) of hash table is?,n/m,m/n,n+m,n-m,A,"n elements, m slots."
+86,Preorder traversal is,Root-Left-Right,Right-Root-Left,Left-Right-Root,Left-Root-Right,A,Definition of preorder.
+87,Dynamic array (like vector) grows by?,Reallocation and copying,Only linked pointers,Only hashing,No copying needed,A,Dynamic arrays resize by reallocating and copying.
+88,Topological sorting is possible only in?,DAG,Complete graph,Undirected graph,Tree only,A,Topological order exists for DAG.
+89,Balance factor in AVL tree is,Nodes(left)-Nodes(right),Degree difference,Key difference,Height(left) - Height(right),D,Balance factor uses heights.
+90,Quick sort average time is,O(n),O(log n),O(n log n),O(n^2),C,Average balanced partitions.
+91,Linear search time complexity is,O(n log n),O(1),O(log n),O(n),D,Checks elements sequentially.
+92,Heap is a,Graph,BST always,Complete binary tree with heap-order,Full binary tree,C,Heap property + completeness.
+93,Big-Omega (Ω) represents,Lower bound,Tight bound,Upper bound,No bound,A,Ω represents lower bound.
+94,LPS array in KMP stands for,Longest Proper Prefix which is also Suffix,Longest Path Search,Least Prefix Sum,Local Pattern Score,A,KMP preprocessing array.
+95,Primary clustering is associated with,Chaining,AVL,Merge sort,Linear probing,D,Linear probing creates clusters.
+96,"In a 2-way set associative cache (analogy), each set can hold?",4 blocks,2 blocks,V blocks,1 block,B,k-way means k lines per set.
+97,"In an array-based stack, underflow occurs when",Stack is empty,Top is max,Stack is full,Queue is empty,A,Underflow means pop on empty.
+98,Dynamic array (like vector) grows by,No copying needed,Reallocation and copying,Only hashing,Only linked pointers,B,Dynamic arrays resize by reallocating and copying.
+99,A table of size 2^20 has how many slots?,2^{bits-1},bits,2^{bits+1},1048576,D,2^k counts number of slots.
+100,Quick sort worst time is,O(n),O(n^2),O(n log n),O(log n),B,Worst pivot leads to skewed partitions.
+101,BST search complexity (average case) is,O(1),O(n log n),O(log n),O(n),C,Balanced BST has logarithmic height.
+102,Binary search works on,Unsorted array,Stack only,Graph only,Sorted array,D,Requires order.
+103,KMP algorithm is used for,Pattern matching in strings,Graph traversal,Hash table resizing,Sorting strings,A,KMP avoids rechecking characters.
+104,Backtracking is used in,N-Queens problem,Binary search,Prim's algorithm,Counting sort,A,Backtracking explores and backtracks decisions.
+105,Doubly linked list node contains,No pointers,Only Next pointer,Only Prev pointer,Prev and Next pointers,D,DLL stores links both ways.
+106,"In a 4-way set associative cache (analogy), each set can hold?",1 block,8 blocks,4 blocks,V blocks,C,k-way means k lines per set.
+107,Balance factor in AVL tree is,Nodes(left)-Nodes(right),Degree difference,Height(left) - Height(right),Key difference,C,Balance factor uses heights.
+108,Postorder traversal is,Left-Root-Right,Root-Right-Left,Left-Right-Root,Root-Left-Right,C,Definition of postorder.
+109,Find-min in a min-heap takes,O(1),O(n log n),O(n),O(log n),A,Minimum is at root.
+110,Level order traversal uses,Stack,Recursion only,Hash table,Queue,D,Level order is BFS on trees.
+111,Insert in binary heap takes,O(n),O(log n),O(n log n),O(1),B,Percolate up.
+112,Searching in an unsorted linked list takes,O(1),O(n log n),O(n),O(log n),C,Sequential traversal.
+113,KMP algorithm is used for,Graph traversal,Hash table resizing,Sorting strings,Pattern matching in strings,D,KMP avoids rechecking characters.
+114,Dijkstra algorithm requires?,Only unweighted graphs,Non-negative edge weights,Negative edges allowed,Only DAG,B,Standard Dijkstra fails with negative weights.
+115,LPS array in KMP stands for,Longest Proper Prefix which is also Suffix,Local Pattern Score,Least Prefix Sum,Longest Path Search,A,KMP preprocessing array.
+116,Queue is based on,LILO,Random,LIFO,FIFO,D,"First in, first out."
+117,Adjacency list space is?,O(log V),O(E^2),O(V+E),O(V^2),C,List stores edges.
+118,0/1 Knapsack is commonly solved by,BFS,Heap sort,Dynamic programming,Binary search,C,DP on weights/values.
+119,Dijkstra algorithm requires,Non-negative edge weights,Only unweighted graphs,Only DAG,Negative edges allowed,A,Standard Dijkstra fails with negative weights.
+120,Chaining resolves collision using,Queues,Linked lists,Trees only,Stacks,B,Each slot stores a list of keys.
+121,Searching in an unsorted linked list takes,O(n log n),O(log n),O(n),O(1),C,Sequential traversal.
+122,Worst-case height of BST with n nodes is,n-1,n/2,sqrt(n),log n,A,Skewed BST becomes a chain.
+123,Topological sorting is possible only in?,Complete graph,Undirected graph,DAG,Tree only,C,Topological order exists for DAG.
+124,Linear search time complexity is,O(1),O(log n),O(n),O(n log n),C,Checks elements sequentially.
+125,Find-min in a min-heap takes?,O(1),O(n),O(n log n),O(log n),A,Minimum is at root.
+126,Doubly linked list node contains,Only Next pointer,Prev and Next pointers,Only Prev pointer,No pointers,B,DLL stores links both ways.
+127,Dynamic Programming requires,Only stacks,Overlapping subproblems and optimal substructure,Only recursion,Only sorting,B,DP stores subproblem results.
+128,Deleting an element from the middle of an array of size n takes,O(n log n),O(1),O(n),O(log n),C,Shifting elements is required.
+129,BST search complexity (average case) is,O(1),O(n log n),O(n),O(log n),D,Balanced BST has logarithmic height.
+130,Heap sort time complexity is?,O(log n),O(n log n),O(n^2),O(n),B,Heap operations are log n.
+131,"If T(n)=T(n/2)+1, then T(n) is",O(n log n),O(log n),O(n),O(n^2),B,Halving recurrence leads to logarithmic complexity.
+132,Searching in an unsorted linked list takes?,O(1),O(log n),O(n),O(n log n),C,Sequential traversal.
+133,Binary search works on,Unsorted array,Sorted array,Stack only,Graph only,B,Requires order.
+134,Dijkstra algorithm requires,Only unweighted graphs,Non-negative edge weights,Negative edges allowed,Only DAG,B,Standard Dijkstra fails with negative weights.
+135,DFS uses?,Queue,Stack/Recursion,Heap,Deque only,B,DFS uses stack implicitly via recursion.
+136,Linear search time complexity is?,O(n),O(1),O(log n),O(n log n),A,Checks elements sequentially.
+137,"In a BST, inorder traversal gives",Level order,Sorted order,Random order,Reverse postorder,B,Inorder visits keys in increasing order.
+138,Postorder traversal is,Left-Root-Right,Root-Right-Left,Left-Right-Root,Root-Left-Right,C,Definition of postorder.
+139,Adjacency matrix space is,O(V),O(E),O(V^2),O(V+E),C,Matrix stores all pairs.
+140,Inorder traversal is,Left-Right-Root,Root-Right-Left,Left-Root-Right,Root-Left-Right,C,Definition of inorder.
+141,Load factor (α) of hash table is?,n/m,m/n,n-m,n+m,A,"n elements, m slots."
+142,Backtracking is used in,Counting sort,N-Queens problem,Binary search,Prim's algorithm,B,Backtracking explores and backtracks decisions.
+143,Circular linked list last node points to?,NULL,Middle node,First node,Random node,C,Circular list loops back to start.
+144,Worst-case height of BST with n nodes is,n-1,sqrt(n),log n,n/2,A,Skewed BST becomes a chain.
+145,"If T(n)=2T(n/2)+n, then T(n) is",O(n),O(n log n),O(n^2),O(log n),B,Merge sort recurrence.
+146,Load factor (α) of hash table is?,n/m,n-m,n+m,m/n,A,"n elements, m slots."
+147,Greedy algorithms make,Only recursive choices,Locally optimal choices,Globally optimal by brute force,Random choices,B,Greedy chooses best immediate option.
+148,Deleting an element from the middle of an array of size n takes,O(log n),O(n),O(1),O(n log n),B,Shifting elements is required.
+149,Postorder traversal is?,Left-Root-Right,Root-Left-Right,Root-Right-Left,Left-Right-Root,D,Definition of postorder.
+150,"In an array-based stack, overflow occurs when",Top becomes -1,Heap is full,Queue is full,Top reaches max size,D,Overflow means no more space.
+151,Deleting an element from the middle of an array of size n takes,O(n log n),O(log n),O(n),O(1),C,Shifting elements is required.
+152,"In a 8-way set associative cache (analogy), each set can hold",8 blocks,V blocks,1 block,16 blocks,A,k-way means k lines per set.
+153,Backtracking is used in,N-Queens problem,Counting sort,Binary search,Prim's algorithm,A,Backtracking explores and backtracks decisions.
+154,Insert in binary heap takes?,O(n),O(1),O(n log n),O(log n),D,Percolate up.
+155,Dynamic Programming requires?,Only stacks,Only sorting,Only recursion,Overlapping subproblems and optimal substructure,D,DP stores subproblem results.
+156,Which sorting algorithm is stable and guaranteed O(n log n)?,Heap sort,Selection sort,Quick sort,Merge sort,D,Merge sort is stable with O(n log n) worst-case.
+157,"In a 2-way set associative cache (analogy), each set can hold",1 block,4 blocks,2 blocks,V blocks,C,k-way means k lines per set.
+158,"In a 4-way set associative cache (analogy), each set can hold",V blocks,1 block,8 blocks,4 blocks,D,k-way means k lines per set.
+159,Which sorting algorithm is stable and guaranteed O(n log n)?,Merge sort,Quick sort,Selection sort,Heap sort,A,Merge sort is stable with O(n log n) worst-case.
+160,Postorder traversal is,Root-Left-Right,Root-Right-Left,Left-Right-Root,Left-Root-Right,C,Definition of postorder.
+161,Quick sort worst time is?,O(n log n),O(n),O(log n),O(n^2),D,Worst pivot leads to skewed partitions.
+162,Primary clustering is associated with,Linear probing,Chaining,Merge sort,AVL,A,Linear probing creates clusters.
+163,Best-case time of insertion sort on nearly sorted array is,O(n),O(n^2),O(1),O(log n),A,Insertion sort becomes linear if few shifts.
+164,Quick sort average time is?,O(n log n),O(n),O(log n),O(n^2),A,Average balanced partitions.
+165,Maximum children per node in binary tree is,3,Any,1,2,D,Binary tree has at most two children.
+166,Best-case time of insertion sort on nearly sorted array is,O(n),O(1),O(n^2),O(log n),A,Insertion sort becomes linear if few shifts.
+167,"If T(n)=T(n/2)+1, then T(n) is",O(n log n),O(n),O(log n),O(n^2),C,Halving recurrence leads to logarithmic complexity.
+168,Greedy algorithms make,Globally optimal by brute force,Locally optimal choices,Only recursive choices,Random choices,B,Greedy chooses best immediate option.
+169,"In a 8-way set associative cache (analogy), each set can hold?",V blocks,1 block,16 blocks,8 blocks,D,k-way means k lines per set.
+170,Linear search time complexity is?,O(log n),O(n),O(n log n),O(1),B,Checks elements sequentially.
+171,"If T(n)=2T(n/2)+n, then T(n) is?",O(n log n),O(n^2),O(log n),O(n),A,Merge sort recurrence.
+172,"If T(n)=2T(n/2)+n, then T(n) is",O(log n),O(n log n),O(n),O(n^2),B,Merge sort recurrence.
+173,Level order traversal uses,Recursion only,Hash table,Stack,Queue,D,Level order is BFS on trees.
+174,Load factor (α) of hash table is,m/n,n/m,n+m,n-m,B,"n elements, m slots."
+175,Deque supports,Insertion/deletion at both ends,Only at rear,Only at front,Only sorting,A,Deque is double-ended.
+176,Topological sorting is possible only in,Tree only,DAG,Complete graph,Undirected graph,B,Topological order exists for DAG.
+177,Binary search works on?,Graph only,Stack only,Unsorted array,Sorted array,D,Requires order.
+178,Backtracking is used in,Prim's algorithm,Counting sort,N-Queens problem,Binary search,C,Backtracking explores and backtracks decisions.
+179,"In a BST, inorder traversal gives?",Level order,Reverse postorder,Sorted order,Random order,C,Inorder visits keys in increasing order.
+180,Merge sort follows,Brute force only,Backtracking,Divide and conquer,Greedy,C,Splits and merges.
+181,Level order traversal uses,Hash table,Recursion only,Queue,Stack,C,Level order is BFS on trees.
+182,Big-Theta (Θ) represents,Lower bound only,Tight bound,Upper bound only,No bound,B,Θ gives an asymptotically tight bound.
+183,"In a BST, inorder traversal gives",Level order,Random order,Reverse postorder,Sorted order,D,Inorder visits keys in increasing order.
+184,Heap sort time complexity is,O(n log n),O(n),O(log n),O(n^2),A,Heap operations are log n.
+185,Primary clustering is associated with,AVL,Merge sort,Linear probing,Chaining,C,Linear probing creates clusters.
+186,"In an array-based stack, underflow occurs when",Stack is empty,Queue is empty,Top is max,Stack is full,A,Underflow means pop on empty.
+187,Postorder traversal is?,Left-Root-Right,Left-Right-Root,Root-Left-Right,Root-Right-Left,B,Definition of postorder.
+188,Selection sort worst-case is?,O(n^2),O(n log n),O(n),O(log n),A,Two nested loops.
+189,"In an array-based stack, underflow occurs when",Top is max,Queue is empty,Stack is empty,Stack is full,C,Underflow means pop on empty.
+190,AVL tree is?,Graph,Height-balanced BST,Complete binary tree,Heap,B,AVL maintains balance factor.
+191,BST search complexity (average case) is?,O(n),O(1),O(log n),O(n log n),C,Balanced BST has logarithmic height.
+192,0/1 Knapsack is commonly solved by?,Dynamic programming,BFS,Binary search,Heap sort,A,DP on weights/values.
+193,Maximum children per node in binary tree is,3,Any,2,1,C,Binary tree has at most two children.
+194,Greedy algorithms make?,Globally optimal by brute force,Random choices,Only recursive choices,Locally optimal choices,D,Greedy chooses best immediate option.
+195,Heap sort time complexity is,O(n log n),O(n^2),O(log n),O(n),A,Heap operations are log n.
+196,Dynamic Programming requires,Only sorting,Only recursion,Only stacks,Overlapping subproblems and optimal substructure,D,DP stores subproblem results.
+197,BST search complexity (average case) is,O(log n),O(n),O(1),O(n log n),A,Balanced BST has logarithmic height.
+198,Adjacency matrix space is,O(V^2),O(V),O(V+E),O(E),A,Matrix stores all pairs.
+199,Tail recursion can often be optimized into,Hashing,Graph,Sorting,Iteration,D,Tail-call optimization converts recursion to loop.
+200,Tail recursion can often be optimized into,Sorting,Iteration,Graph,Hashing,B,Tail-call optimization converts recursion to loop.
+201,Stack is based on,Random,LIFO,FIFO,Priority,B,"Last in, first out."
+202,BFS time using adjacency list is,O(log V),O(V+E),O(E^2),O(V^2),B,Visits vertices and edges once.
+203,Circular linked list last node points to,NULL,Random node,First node,Middle node,C,Circular list loops back to start.
+204,Preorder traversal is?,Root-Left-Right,Right-Root-Left,Left-Root-Right,Left-Right-Root,A,Definition of preorder.
+205,A table of size 2^20 has how many slots?,2^{bits-1},2^{bits+1},bits,1048576,D,2^k counts number of slots.
+206,Adjacency list space is,O(log V),O(V+E),O(V^2),O(E^2),B,List stores edges.
+207,"In an array-based stack, overflow occurs when?",Top reaches max size,Heap is full,Queue is full,Top becomes -1,A,Overflow means no more space.
+208,Which sorting algorithm is stable and guaranteed O(n log n)?,Selection sort,Quick sort,Merge sort,Heap sort,C,Merge sort is stable with O(n log n) worst-case.
+209,Worst-case height of BST with n nodes is,log n,sqrt(n),n-1,n/2,C,Skewed BST becomes a chain.
+210,Bubble sort is,Stable and in-place,Stable but not in-place,Not a comparison sort,Unstable and not in-place,A,Adjacent swaps keep stability.
+211,Doubly linked list node contains,Prev and Next pointers,No pointers,Only Prev pointer,Only Next pointer,A,DLL stores links both ways.
+212,Time complexity of binary search is,O(n log n),O(log n),O(n),O(1),B,Binary search halves the search space each step.
+213,Best-case time of insertion sort on nearly sorted array is?,O(log n),O(n),O(1),O(n^2),B,Insertion sort becomes linear if few shifts.
+214,Topological sorting is possible only in?,Complete graph,Tree only,Undirected graph,DAG,D,Topological order exists for DAG.
+215,KMP algorithm is used for?,Pattern matching in strings,Graph traversal,Hash table resizing,Sorting strings,A,KMP avoids rechecking characters.
+216,Balance factor in AVL tree is,Degree difference,Height(left) - Height(right),Nodes(left)-Nodes(right),Key difference,B,Balance factor uses heights.
+217,Queue is based on,LILO,Random,LIFO,FIFO,D,"First in, first out."
+218,Heap is a?,Full binary tree,Graph,BST always,Complete binary tree with heap-order,D,Heap property + completeness.
+219,Quick sort average time is?,O(log n),O(n),O(n^2),O(n log n),D,Average balanced partitions.
+220,"In an array-based stack, underflow occurs when",Stack is empty,Stack is full,Queue is empty,Top is max,A,Underflow means pop on empty.
+221,Big-Theta (Θ) represents,No bound,Tight bound,Upper bound only,Lower bound only,B,Θ gives an asymptotically tight bound.
+222,DFS uses,Stack/Recursion,Heap,Deque only,Queue,A,DFS uses stack implicitly via recursion.
+223,Big-Theta (Θ) represents?,Tight bound,Upper bound only,Lower bound only,No bound,A,Θ gives an asymptotically tight bound.
+224,Time complexity of binary search is,O(n log n),O(1),O(n),O(log n),D,Binary search halves the search space each step.
+225,DFS uses?,Queue,Stack/Recursion,Heap,Deque only,B,DFS uses stack implicitly via recursion.
+226,Linear search time complexity is,O(1),O(n log n),O(n),O(log n),C,Checks elements sequentially.
+227,"In a BST, inorder traversal gives?",Reverse postorder,Level order,Random order,Sorted order,D,Inorder visits keys in increasing order.
+228,A table of size 2^20 has how many slots?,2^{bits-1},2^{bits+1},1048576,bits,C,2^k counts number of slots.
+229,BFS uses?,Hash,Heap,Stack,Queue,D,BFS explores level by level.
+230,"In a 4-way set associative cache (analogy), each set can hold?",V blocks,1 block,8 blocks,4 blocks,D,k-way means k lines per set.
+231,"In a 2-way set associative cache (analogy), each set can hold",V blocks,4 blocks,2 blocks,1 block,C,k-way means k lines per set.
+232,Doubly linked list node contains,Only Prev pointer,Only Next pointer,Prev and Next pointers,No pointers,C,DLL stores links both ways.
+233,Merge sort follows,Greedy,Divide and conquer,Backtracking,Brute force only,B,Splits and merges.
+234,Merge sort follows,Greedy,Brute force only,Divide and conquer,Backtracking,C,Splits and merges.
+235,Find-min in a min-heap takes,O(n log n),O(log n),O(1),O(n),C,Minimum is at root.
+236,Inserting at head in singly linked list takes?,O(log n),O(n log n),O(1),O(n),C,Only a few pointer updates.
+237,"In an array-based stack, underflow occurs when",Stack is empty,Stack is full,Top is max,Queue is empty,A,Underflow means pop on empty.
+238,DFS uses?,Heap,Queue,Deque only,Stack/Recursion,D,DFS uses stack implicitly via recursion.
+239,BST search complexity (average case) is,O(n log n),O(n),O(log n),O(1),C,Balanced BST has logarithmic height.
+240,"In an array-based stack, underflow occurs when?",Top is max,Stack is full,Queue is empty,Stack is empty,D,Underflow means pop on empty.
+241,Topological sorting is possible only in?,Tree only,DAG,Complete graph,Undirected graph,B,Topological order exists for DAG.
+242,"In a 8-way set associative cache (analogy), each set can hold",16 blocks,V blocks,1 block,8 blocks,D,k-way means k lines per set.
+243,Heap is a,BST always,Full binary tree,Complete binary tree with heap-order,Graph,C,Heap property + completeness.
+244,Selection sort worst-case is,O(log n),O(n),O(n^2),O(n log n),C,Two nested loops.
+245,A table of size 2^20 has how many slots?,1048576,bits,2^{bits+1},2^{bits-1},A,2^k counts number of slots.
+246,Balance factor in AVL tree is,Height(left) - Height(right),Degree difference,Nodes(left)-Nodes(right),Key difference,A,Balance factor uses heights.
+247,Greedy algorithms make,Globally optimal by brute force,Only recursive choices,Random choices,Locally optimal choices,D,Greedy chooses best immediate option.
+248,Preorder traversal is,Left-Right-Root,Right-Root-Left,Left-Root-Right,Root-Left-Right,D,Definition of preorder.
+249,Inorder traversal is,Left-Right-Root,Root-Left-Right,Root-Right-Left,Left-Root-Right,D,Definition of inorder.
+250,Dynamic Programming requires?,Only recursion,Only sorting,Overlapping subproblems and optimal substructure,Only stacks,C,DP stores subproblem results.
+251,Big-Omega (Ω) represents?,No bound,Upper bound,Lower bound,Tight bound,C,Ω represents lower bound.
+252,BFS uses,Hash,Heap,Stack,Queue,D,BFS explores level by level.
+253,Deleting an element from the middle of an array of size n takes,O(n),O(log n),O(n log n),O(1),A,Shifting elements is required.
+254,Quick sort worst time is?,O(n),O(n log n),O(n^2),O(log n),C,Worst pivot leads to skewed partitions.
+255,A table of size 2^16 has how many slots?,bits,2^{bits+1},65536,2^{bits-1},C,2^k counts number of slots.
+256,Worst-case height of BST with n nodes is,log n,n/2,n-1,sqrt(n),C,Skewed BST becomes a chain.
+257,Find-min in a min-heap takes?,O(1),O(n log n),O(log n),O(n),A,Minimum is at root.
+258,"In a BST, inorder traversal gives",Level order,Sorted order,Reverse postorder,Random order,B,Inorder visits keys in increasing order.
+259,Selection sort worst-case is?,O(n log n),O(n),O(log n),O(n^2),D,Two nested loops.
+260,Big-Omega (Ω) represents?,Upper bound,Lower bound,Tight bound,No bound,B,Ω represents lower bound.
+261,"In a 8-way set associative cache (analogy), each set can hold",16 blocks,1 block,8 blocks,V blocks,C,k-way means k lines per set.
+262,"In an array-based stack, underflow occurs when?",Stack is full,Stack is empty,Top is max,Queue is empty,B,Underflow means pop on empty.
+263,KMP algorithm is used for,Pattern matching in strings,Hash table resizing,Graph traversal,Sorting strings,A,KMP avoids rechecking characters.
+264,Quick sort worst time is?,O(n),O(n^2),O(n log n),O(log n),B,Worst pivot leads to skewed partitions.
+265,Worst-case height of BST with n nodes is,n-1,n/2,sqrt(n),log n,A,Skewed BST becomes a chain.
+266,Deleting an element from the middle of an array of size n takes,O(n log n),O(1),O(log n),O(n),D,Shifting elements is required.
+267,Balance factor in AVL tree is,Nodes(left)-Nodes(right),Degree difference,Key difference,Height(left) - Height(right),D,Balance factor uses heights.
+268,"If T(n)=2T(n/2)+n, then T(n) is",O(log n),O(n^2),O(n log n),O(n),C,Merge sort recurrence.
+269,"If T(n)=T(n/2)+1, then T(n) is",O(n log n),O(log n),O(n^2),O(n),B,Halving recurrence leads to logarithmic complexity.
+270,Linear search time complexity is,O(n),O(n log n),O(log n),O(1),A,Checks elements sequentially.
+271,LPS array in KMP stands for?,Least Prefix Sum,Local Pattern Score,Longest Proper Prefix which is also Suffix,Longest Path Search,C,KMP preprocessing array.
+272,"If T(n)=2T(n/2)+n, then T(n) is",O(log n),O(n),O(n log n),O(n^2),C,Merge sort recurrence.
+273,"In a BST, inorder traversal gives",Random order,Reverse postorder,Level order,Sorted order,D,Inorder visits keys in increasing order.
+274,Heap sort time complexity is,O(log n),O(n),O(n log n),O(n^2),C,Heap operations are log n.
+275,Which sorting algorithm is stable and guaranteed O(n log n)?,Merge sort,Quick sort,Heap sort,Selection sort,A,Merge sort is stable with O(n log n) worst-case.
+276,Searching in an unsorted linked list takes,O(log n),O(n),O(n log n),O(1),B,Sequential traversal.
+277,Time complexity of binary search is?,O(n log n),O(log n),O(n),O(1),B,Binary search halves the search space each step.
+278,Primary clustering is associated with,Merge sort,Chaining,Linear probing,AVL,C,Linear probing creates clusters.
+279,Backtracking is used in,Binary search,Prim's algorithm,Counting sort,N-Queens problem,D,Backtracking explores and backtracks decisions.
+280,Postorder traversal is?,Left-Root-Right,Left-Right-Root,Root-Left-Right,Root-Right-Left,B,Definition of postorder.
+281,Primary clustering is associated with,Chaining,AVL,Merge sort,Linear probing,D,Linear probing creates clusters.
+282,Dynamic Programming requires,Overlapping subproblems and optimal substructure,Only stacks,Only sorting,Only recursion,A,DP stores subproblem results.
+283,Time complexity of binary search is,O(1),O(n),O(n log n),O(log n),D,Binary search halves the search space each step.
+284,Bubble sort is,Stable and in-place,Stable but not in-place,Not a comparison sort,Unstable and not in-place,A,Adjacent swaps keep stability.
+285,Selection sort worst-case is,O(n),O(n log n),O(n^2),O(log n),C,Two nested loops.
+286,Queue is based on,LIFO,Random,LILO,FIFO,D,"First in, first out."
+287,"In a 4-way set associative cache (analogy), each set can hold?",8 blocks,1 block,V blocks,4 blocks,D,k-way means k lines per set.
+288,DFS uses?,Queue,Deque only,Heap,Stack/Recursion,D,DFS uses stack implicitly via recursion.
+289,"In an array-based stack, underflow occurs when?",Top is max,Stack is full,Stack is empty,Queue is empty,C,Underflow means pop on empty.
+290,Deleting an element from the middle of an array of size n takes?,O(n),O(1),O(log n),O(n log n),A,Shifting elements is required.
+291,Linear search time complexity is,O(1),O(n),O(n log n),O(log n),B,Checks elements sequentially.
+292,Primary clustering is associated with?,Chaining,Linear probing,Merge sort,AVL,B,Linear probing creates clusters.
+293,BFS time using adjacency list is?,O(E^2),O(log V),O(V^2),O(V+E),D,Visits vertices and edges once.
+294,"In a BST, inorder traversal gives",Sorted order,Random order,Reverse postorder,Level order,A,Inorder visits keys in increasing order.
+295,Merge sort follows,Divide and conquer,Greedy,Brute force only,Backtracking,A,Splits and merges.
+296,Quick sort worst time is,O(n^2),O(n log n),O(log n),O(n),A,Worst pivot leads to skewed partitions.
+297,Which sorting algorithm is stable and guaranteed O(n log n)?,Quick sort,Merge sort,Selection sort,Heap sort,B,Merge sort is stable with O(n log n) worst-case.
+298,Best-case time of insertion sort on nearly sorted array is?,O(1),O(n),O(log n),O(n^2),B,Insertion sort becomes linear if few shifts.
+299,KMP algorithm is used for,Pattern matching in strings,Sorting strings,Graph traversal,Hash table resizing,A,KMP avoids rechecking characters.
+300,Postorder traversal is,Root-Right-Left,Left-Root-Right,Left-Right-Root,Root-Left-Right,C,Definition of postorder.
+301,Delete-min in min-heap takes,O(log n),O(n^2),O(1),O(n),A,Percolate down.
+302,Big-Theta (Θ) represents?,No bound,Lower bound only,Tight bound,Upper bound only,C,Θ gives an asymptotically tight bound.
+303,"If T(n)=2T(n/2)+n, then T(n) is",O(log n),O(n log n),O(n),O(n^2),B,Merge sort recurrence.
+304,Merge sort follows,Backtracking,Brute force only,Greedy,Divide and conquer,D,Splits and merges.
+305,Big-Omega (Ω) represents,Upper bound,Tight bound,No bound,Lower bound,D,Ω represents lower bound.
+306,Primary clustering is associated with?,Linear probing,Chaining,AVL,Merge sort,A,Linear probing creates clusters.
+307,Stack is based on?,Priority,LIFO,FIFO,Random,B,"Last in, first out."
+308,Dynamic Programming requires?,Only recursion,Only sorting,Overlapping subproblems and optimal substructure,Only stacks,C,DP stores subproblem results.
+309,Linear probing is,Searching,Sorting,Open addressing,Chaining,C,Probe next slots sequentially.
+310,KMP algorithm is used for?,Sorting strings,Pattern matching in strings,Graph traversal,Hash table resizing,B,KMP avoids rechecking characters.
+311,KMP algorithm is used for,Sorting strings,Hash table resizing,Graph traversal,Pattern matching in strings,D,KMP avoids rechecking characters.
+312,BFS time using adjacency list is?,O(E^2),O(V+E),O(V^2),O(log V),B,Visits vertices and edges once.
+313,Binary search works on?,Stack only,Sorted array,Unsorted array,Graph only,B,Requires order.
+314,Maximum children per node in binary tree is,1,2,Any,3,B,Binary tree has at most two children.
+315,Maximum children per node in binary tree is,3,Any,2,1,C,Binary tree has at most two children.
+316,Balance factor in AVL tree is,Height(left) - Height(right),Key difference,Degree difference,Nodes(left)-Nodes(right),A,Balance factor uses heights.
+317,Balance factor in AVL tree is,Degree difference,Height(left) - Height(right),Nodes(left)-Nodes(right),Key difference,B,Balance factor uses heights.
+318,Dijkstra algorithm requires,Only DAG,Negative edges allowed,Non-negative edge weights,Only unweighted graphs,C,Standard Dijkstra fails with negative weights.
+319,Adjacency list space is,O(V^2),O(V+E),O(E^2),O(log V),B,List stores edges.
+320,Adjacency matrix space is,O(V+E),O(V),O(V^2),O(E),C,Matrix stores all pairs.

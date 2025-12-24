@@ -1,0 +1,261 @@
+q_no,question,option_A,option_B,option_C,option_D,correct_option
+1,Stack Pointer (SP) points to,Interrupt vector,Top of stack,Next instruction,Next cache line,B
+2,Branch prediction reduces,Control hazard stalls,ALU latency,Register count,Cache size,A
+3,Vectored interrupt means,Only polling,Interrupt gives address of ISR,Interrupts are ignored,DMA handles ISR,B
+4,Microprogrammed control refers to,Only for RISC,No control memory,Always fastest,More flexible but slower,D
+5,Auto-increment addressing is useful for,Microprogram,Cache mapping,Stack/arrays traversal,Branch prediction,C
+6,Interrupt driven I/O ?,Improves CPU utilization,Needs no ISR,Blocks CPU completely,Avoids interrupts,A
+7,RISC instructions are generally ?,Fixed length,Variable length,Only microcoded,Only 1 byte,A
+8,TLB stores,Microinstructions,Recent page table entries,Interrupt vectors,Cache blocks,B
+9,TLB stores,Microinstructions,Cache blocks,Recent page table entries,Interrupt vectors,C
+10,RISC instructions are generally,Only microcoded,Variable length,Fixed length,Only 1 byte,C
+11,Paging reduces ?,Cache misses,Interrupt latency,External fragmentation,Internal fragmentation,C
+12,Indexed addressing refers to best for,Arrays,I/O ports,Interrupts,Constants,A
+13,Forwarding helps reduce,Data hazards,Control hazards,Interrupts,Structural hazards,A
+14,Indexed addressing is best for,Constants,I/O ports,Interrupts,Arrays,D
+15,PC register stores,Operand,Current instruction,Address of next instruction,ALU result,C
+16,"In 5-stage pipeline, MEM stage refers to used for",Register write back,ALU execution,Data memory access,Instruction decode,C
+17,32-bit address bus can address ?,4 GB (byte-addressable),8 GB,16 GB,2 GB,A
+18,Segmentation suffers from ?,No overhead,External fragmentation,No fragmentation,Only internal fragmentation,B
+19,Auto-increment addressing refers to useful for,Microprogram,Cache mapping,Stack/arrays traversal,Branch prediction,C
+20,Immediate addressing mode means ?,Address is in memory,Operand is in instruction,Operand is in cache,Address is in register,B
+21,Flynn taxonomy: SIMD means,Single instruction single data,Multiple instruction single data,Single instruction multiple data,Multiple instruction multiple data,C
+22,CPU instruction cycle starts with,Interrupt,Write back,Fetch,Execute,C
+23,"In 5-stage pipeline, MEM stage is used for",Instruction decode,Data memory access,Register write back,ALU execution,B
+24,Fully associative cache requires ?,Only modulo,Searching all cache tags,No tag,No comparator,B
+25,Accumulator (ACC) is used to,Store I/O status,Hold intermediate ALU results,Store next instruction address,Store page table entries,B
+26,32-bit address bus can address ?,4 GB (byte-addressable),16 GB,2 GB,8 GB,A
+27,"In 5-stage pipeline, MEM stage refers to used for",ALU execution,Data memory access,Register write back,Instruction decode,B
+28,RISC instructions are generally ?,Only 1 byte,Variable length,Only microcoded,Fixed length,D
+29,Data bus is generally,Unidirectional,Bidirectional,Only CPU->Memory,Only Memory->CPU,B
+30,ISR stands for,Instruction Set Register,Interrupt Service Routine,Interrupt Status Register,Internal Storage Register,B
+31,32-bit address bus can address,4 GB (byte-addressable),16 GB,2 GB,8 GB,A
+32,Microprogrammed control refers to,No control memory,Always fastest,More flexible but slower,Only for RISC,C
+33,Main memory is commonly built using,Registers,EEPROM,DRAM,SRAM,C
+34,DMA transfers data between,Cache and registers only,CPU and ALU,ALU and CU,Device and memory,D
+35,PC register stores,Current instruction,Address of next instruction,Operand,ALU result,B
+36,Von Neumann architecture uses,Single memory for data and instructions,Separate memory for data and instructions,Only instruction memory,Only data memory,A
+37,Miss penalty is,Cache access time,Extra time for a cache miss,TLB access time,Pipeline depth,B
+38,PC register stores,Current instruction,Address of next instruction,ALU result,Operand,B
+39,Vectored interrupt means ?,DMA handles ISR,Interrupt gives address of ISR,Interrupts are ignored,Only polling,B
+40,Immediate addressing mode means,Address is in memory,Address is in register,Operand is in instruction,Operand is in cache,C
+41,Von Neumann architecture uses ?,Only data memory,Single memory for data and instructions,Only instruction memory,Separate memory for data and instructions,B
+42,CISC control unit is often,Only combinational,No control unit,Microprogrammed,Hardwired,C
+43,DMA transfers data between ?,CPU and ALU,Device and memory,Cache and registers only,ALU and CU,B
+44,Address bus is generally,Half duplex,Not used,Bidirectional,Unidirectional,D
+45,Status/Flag register contains,Cache tags,Memory addresses,"Condition codes (Z, C, S, V)",Only opcode,C
+46,PC register stores,ALU result,Operand,Current instruction,Address of next instruction,D
+47,32-bit address bus can address,8 GB,16 GB,2 GB,4 GB (byte-addressable),D
+48,Address bus refers to generally,Half duplex,Not used,Unidirectional,Bidirectional,C
+49,Forwarding helps reduce,Data hazards,Interrupts,Control hazards,Structural hazards,A
+50,Vectored interrupt means ?,Only polling,Interrupt gives address of ISR,Interrupts are ignored,DMA handles ISR,B
+51,RAW hazard stands for ?,Read After Wait,Run After Write,Read After Write,Read And Write,C
+52,Control hazard commonly arises from,Move instruction,Branch instructions,NOP,Add instruction,B
+53,Auto-increment addressing refers to useful for,Branch prediction,Cache mapping,Microprogram,Stack/arrays traversal,D
+54,Flynn taxonomy: SIMD means ?,Multiple instruction multiple data,Single instruction single data,Single instruction multiple data,Multiple instruction single data,C
+55,Stack Pointer (SP) points to,Top of stack,Interrupt vector,Next instruction,Next cache line,A
+56,IR register stores,Next instruction,Stack top,Current instruction,Memory address,C
+57,Branch prediction reduces ?,ALU latency,Cache size,Control hazard stalls,Register count,C
+58,PC register stores,Operand,ALU result,Address of next instruction,Current instruction,C
+59,32-bit address bus can address,2 GB,8 GB,4 GB (byte-addressable),16 GB,C
+60,Programmed I/O is also called,Polling,Interrupt I/O,DMA,Spooling,A
+61,RISC instructions are generally,Only microcoded,Fixed length,Variable length,Only 1 byte,B
+62,Relative addressing uses,Direct address,PC + offset,Base + index,Stack pointer,B
+63,Programmed I/O is also called,DMA,Interrupt I/O,Spooling,Polling,D
+64,Von Neumann architecture uses,Single memory for data and instructions,Only instruction memory,Separate memory for data and instructions,Only data memory,A
+65,"In 5-stage pipeline, MEM stage is used for",ALU execution,Instruction decode,Data memory access,Register write back,C
+66,RAW hazard stands for ?,Run After Write,Read After Write,Read And Write,Read After Wait,B
+67,Segmentation suffers from ?,No fragmentation,Only internal fragmentation,External fragmentation,No overhead,C
+68,ISR stands for,Interrupt Status Register,Interrupt Service Routine,Instruction Set Register,Internal Storage Register,B
+69,MAR holds,Memory address for access,Flags,Opcode,Data to write,A
+70,Programmed I/O is also called,Interrupt I/O,Spooling,DMA,Polling,D
+71,Von Neumann architecture uses ?,Only data memory,Single memory for data and instructions,Only instruction memory,Separate memory for data and instructions,B
+72,Accumulator (ACC) is used to,Store I/O status,Hold intermediate ALU results,Store page table entries,Store next instruction address,B
+73,Auto-increment addressing refers to useful for,Branch prediction,Stack/arrays traversal,Microprogram,Cache mapping,B
+74,Cache hit ratio refers to,Hits * Misses,Hits / (Hits + Misses),Misses / Hits,1 / Hits,B
+75,32-bit address bus can address ?,4 GB (byte-addressable),8 GB,2 GB,16 GB,A
+76,IR register stores ?,Stack top,Next instruction,Memory address,Current instruction,D
+77,Indexed addressing is best for,I/O ports,Interrupts,Constants,Arrays,D
+78,Immediate addressing mode means ?,Operand is in instruction,Operand is in cache,Address is in memory,Address is in register,A
+79,Hardwired control is,No control signals,Faster but less flexible,Only for CISC,Slower but flexible,B
+80,Stack Pointer (SP) points to ?,Next cache line,Top of stack,Next instruction,Interrupt vector,B
+81,Status/Flag register contains ?,"Condition codes (Z, C, S, V)",Only opcode,Cache tags,Memory addresses,A
+82,Relative addressing uses,Stack pointer,PC + offset,Direct address,Base + index,B
+83,Segmentation suffers from ?,Only internal fragmentation,No fragmentation,External fragmentation,No overhead,C
+84,RISC instructions are generally,Only microcoded,Only 1 byte,Fixed length,Variable length,C
+85,MDR holds,Only address,Only opcode,Data read from / to be written to memory,Only flags,C
+86,Indexed addressing is best for,I/O ports,Constants,Arrays,Interrupts,C
+87,Mrefers tos penalty refers to,TLB access time,Pipeline depth,Extra time for a cache miss,Cache access time,C
+88,Von Neumann architecture uses ?,Only data memory,Only instruction memory,Separate memory for data and instructions,Single memory for data and instructions,D
+89,Ideal pipeline speedup for k stages refers to about,k^2,k,1/k,log k,B
+90,CISC control unit is often,No control unit,Only combinational,Microprogrammed,Hardwired,C
+91,Pipeline hazard due to resource conflict is,Structural hazard,Control hazard,Cache hazard,Data hazard,A
+92,Direct mapped cache maps a memory block to ?,Only first line,Exactly one cache line,Any cache line,No line,B
+93,Vectored interrupt means,Interrupts are ignored,DMA handles ISR,Interrupt gives address of ISR,Only polling,C
+94,Paging reduces ?,Internal fragmentation,Interrupt latency,External fragmentation,Cache misses,C
+95,MDR holds,Data read from / to be written to memory,Only address,Only opcode,Only flags,A
+96,CISC control unit refers to often,Only combinational,No control unit,Microprogrammed,Hardwired,C
+97,32-bit address bus can address,16 GB,4 GB (byte-addressable),2 GB,8 GB,B
+98,Immediate addressing mode means,Address is in memory,Address is in register,Operand is in cache,Operand is in instruction,D
+99,Branch prediction reduces ?,Control hazard stalls,Register count,Cache size,ALU latency,A
+100,Immediate addressing mode means,Address is in memory,Operand is in instruction,Operand is in cache,Address is in register,B
+101,Harvard architecture uses ?,Only registers,No bus,Separate memory for data and instructions,Single shared memory,C
+102,Relative addressing uses ?,Stack pointer,Base + index,PC + offset,Direct address,C
+103,MIMD systems are ?,Single core,Stack machines,Multi-core / multiprocessor,Vector only,C
+104,Hardwired control is,Only for CISC,No control signals,Slower but flexible,Faster but less flexible,D
+105,MDR holds,Only flags,Only address,Only opcode,Data read from / to be written to memory,D
+106,Segmentation suffers from,External fragmentation,No fragmentation,No overhead,Only internal fragmentation,A
+107,MAR holds,Memory address for access,Flags,Data to write,Opcode,A
+108,MAR holds,Flags,Opcode,Memory address for access,Data to write,C
+109,Control hazard commonly arises from ?,Add instruction,NOP,Move instruction,Branch instructions,D
+110,Flynn taxonomy: SIMD means,Single instruction multiple data,Multiple instruction single data,Multiple instruction multiple data,Single instruction single data,A
+111,Pipeline hazard due to resource conflict refers to,Structural hazard,Control hazard,Cache hazard,Data hazard,A
+112,ISR stands for,Interrupt Status Register,Internal Storage Register,Interrupt Service Routine,Instruction Set Register,C
+113,ISR stands for,Instruction Set Register,Interrupt Status Register,Interrupt Service Routine,Internal Storage Register,C
+114,Set associative cache is a compromise between,SRAM and DRAM,ALU and CU,Paging and segmentation,Direct and associative,D
+115,Branch prediction reduces ?,Cache size,Register count,ALU latency,Control hazard stalls,D
+116,32-bit address bus can address ?,16 GB,2 GB,8 GB,4 GB (byte-addressable),D
+117,Immediate addressing mode means,Operand is in instruction,Address is in register,Address is in memory,Operand is in cache,A
+118,Ideal pipeline speedup for k stages is about,k^2,log k,1/k,k,D
+119,Programmed I/O refers to also called,DMA,Polling,Interrupt I/O,Spooling,B
+120,ISR stands for,Instruction Set Register,Interrupt Service Routine,Internal Storage Register,Interrupt Status Register,B
+121,Indexed addressing refers to best for,Constants,I/O ports,Arrays,Interrupts,C
+122,Vectored interrupt means ?,DMA handles ISR,Interrupts are ignored,Only polling,Interrupt gives address of ISR,D
+123,RISC instructions are generally ?,Variable length,Only 1 byte,Fixed length,Only microcoded,C
+124,IR register stores,Current instruction,Memory address,Stack top,Next instruction,A
+125,Data bus is generally,Unidirectional,Only Memory->CPU,Bidirectional,Only CPU->Memory,C
+126,Direct mapped cache maps a memory block to ?,No line,Any cache line,Only first line,Exactly one cache line,D
+127,Indexed addressing is best for,Constants,I/O ports,Interrupts,Arrays,D
+128,Data bus is generally,Only CPU->Memory,Unidirectional,Only Memory->CPU,Bidirectional,D
+129,Cache is commonly built using,DRAM,Magnetic disk,Flash,SRAM,D
+130,Forwarding helps reduce,Data hazards,Control hazards,Structural hazards,Interrupts,A
+131,Data bus is generally,Only Memory->CPU,Unidirectional,Bidirectional,Only CPU->Memory,C
+132,DMA transfers data between,Cache and registers only,Device and memory,CPU and ALU,ALU and CU,B
+133,Indexed addressing is best for,Arrays,Constants,I/O ports,Interrupts,A
+134,Branch prediction reduces ?,Register count,ALU latency,Control hazard stalls,Cache size,C
+135,Indexed addressing is best for,Arrays,Constants,Interrupts,I/O ports,A
+136,Data bus is generally,Bidirectional,Only Memory->CPU,Unidirectional,Only CPU->Memory,A
+137,Microprogrammed control is,No control memory,More flexible but slower,Always fastest,Only for RISC,B
+138,Cache hit ratio is,Misses / Hits,1 / Hits,Hits * Misses,Hits / (Hits + Misses),D
+139,Direct mapped cache maps a memory block to ?,Exactly one cache line,Any cache line,Only first line,No line,A
+140,Indexed addressing is best for,Interrupts,Arrays,Constants,I/O ports,B
+141,Flynn taxonomy: SIMD means ?,Multiple instruction single data,Single instruction single data,Single instruction multiple data,Multiple instruction multiple data,C
+142,Flynn taxonomy: SIMD means,Multiple instruction single data,Single instruction single data,Single instruction multiple data,Multiple instruction multiple data,C
+143,Von Neumann architecture uses,Single memory for data and instructions,Only data memory,Only instruction memory,Separate memory for data and instructions,A
+144,Status/Flag register contains,Only opcode,"Condition codes (Z, C, S, V)",Cache tags,Memory addresses,B
+145,Accumulator (ACC) refers to used to,Store next instruction address,Hold intermediate ALU results,Store I/O status,Store page table entries,B
+146,Status/Flag register contains,Memory addresses,Only opcode,Cache tags,"Condition codes (Z, C, S, V)",D
+147,MDR holds ?,Only flags,Only address,Only opcode,Data read from / to be written to memory,D
+148,Microprogrammed control is,Always fastest,No control memory,More flexible but slower,Only for RISC,C
+149,Control hazard commonly arises from,Add instruction,Move instruction,Branch instructions,NOP,C
+150,CPU instruction cycle starts with,Fetch,Execute,Write back,Interrupt,A
+151,Vectored interrupt means,Interrupt gives address of ISR,DMA handles ISR,Only polling,Interrupts are ignored,A
+152,ISR stands for ?,Interrupt Service Routine,Interrupt Status Register,Instruction Set Register,Internal Storage Register,A
+153,Address bus refers to generally,Unidirectional,Half duplex,Bidirectional,Not used,A
+154,Paging reduces,Internal fragmentation,External fragmentation,Cache misses,Interrupt latency,B
+155,Direct mapped cache maps a memory block to ?,Only first line,No line,Any cache line,Exactly one cache line,D
+156,Miss penalty is,Extra time for a cache miss,Cache access time,TLB access time,Pipeline depth,A
+157,Microprogrammed control refers to,Always fastest,Only for RISC,No control memory,More flexible but slower,D
+158,RAW hazard stands for ?,Read And Write,Read After Write,Read After Wait,Run After Write,B
+159,Pipeline hazard due to resource conflict refers to,Structural hazard,Cache hazard,Data hazard,Control hazard,A
+160,Paging reduces,Cache misses,Internal fragmentation,External fragmentation,Interrupt latency,C
+161,MIMD systems are,Multi-core / multiprocessor,Vector only,Stack machines,Single core,A
+162,Paging reduces ?,External fragmentation,Cache misses,Internal fragmentation,Interrupt latency,A
+163,RAW hazard stands for,Read After Wait,Run After Write,Read After Write,Read And Write,C
+164,Von Neumann architecture uses ?,Only instruction memory,Separate memory for data and instructions,Only data memory,Single memory for data and instructions,D
+165,CISC control unit refers to often,Only combinational,No control unit,Microprogrammed,Hardwired,C
+166,CISC control unit refers to often,Microprogrammed,Only combinational,Hardwired,No control unit,A
+167,Stack Pointer (SP) points to ?,Next cache line,Next instruction,Top of stack,Interrupt vector,C
+168,PC register stores ?,Operand,ALU result,Current instruction,Address of next instruction,D
+169,"In 5-stage pipeline, MEM stage is used for",Data memory access,Register write back,Instruction decode,ALU execution,A
+170,Vectored interrupt means,Only polling,Interrupt gives address of ISR,DMA handles ISR,Interrupts are ignored,B
+171,RISC instructions are generally,Only microcoded,Only 1 byte,Fixed length,Variable length,C
+172,MIMD systems are,Multi-core / multiprocessor,Vector only,Stack machines,Single core,A
+173,"In 5-stage pipeline, MEM stage refers to used for",Register write back,ALU execution,Instruction decode,Data memory access,D
+174,Miss penalty is,Extra time for a cache miss,TLB access time,Pipeline depth,Cache access time,A
+175,Paging reduces ?,Internal fragmentation,External fragmentation,Interrupt latency,Cache misses,B
+176,Forwarding helps reduce,Data hazards,Interrupts,Structural hazards,Control hazards,A
+177,"In 5-stage pipeline, MEM stage is used for",Instruction decode,Data memory access,ALU execution,Register write back,B
+178,MIMD systems are,Vector only,Single core,Multi-core / multiprocessor,Stack machines,C
+179,"In 5-stage pipeline, MEM stage refers to used for",Register write back,Instruction decode,ALU execution,Data memory access,D
+180,"In 5-stage pipeline, MEM stage is used for",Register write back,Instruction decode,Data memory access,ALU execution,C
+181,Harvard architecture uses ?,No bus,Single shared memory,Only registers,Separate memory for data and instructions,D
+182,Auto-increment addressing refers to useful for,Cache mapping,Stack/arrays traversal,Branch prediction,Microprogram,B
+183,Ideal pipeline speedup for k stages is about,log k,1/k,k^2,k,D
+184,RAW hazard stands for,Read And Write,Read After Write,Run After Write,Read After Wait,B
+185,Indexed addressing refers to best for,Interrupts,Constants,Arrays,I/O ports,C
+186,Direct mapped cache maps a memory block to,Any cache line,Only first line,No line,Exactly one cache line,D
+187,Paging reduces,Interrupt latency,Cache misses,External fragmentation,Internal fragmentation,C
+188,Programmed I/O is also called,Interrupt I/O,Spooling,DMA,Polling,D
+189,Cache is commonly built using,SRAM,DRAM,Flash,Magnetic disk,A
+190,DMA transfers data between ?,Device and memory,ALU and CU,Cache and registers only,CPU and ALU,A
+191,Address bus refers to generally,Unidirectional,Half duplex,Not used,Bidirectional,A
+192,PC register stores ?,ALU result,Current instruction,Address of next instruction,Operand,C
+193,Segmentation suffers from ?,No fragmentation,No overhead,Only internal fragmentation,External fragmentation,D
+194,Harvard architecture uses,Single shared memory,No bus,Only registers,Separate memory for data and instructions,D
+195,Programmed I/O is also called,DMA,Polling,Interrupt I/O,Spooling,B
+196,CISC control unit refers to often,No control unit,Only combinational,Hardwired,Microprogrammed,D
+197,Programmed I/O is also called,Interrupt I/O,DMA,Spooling,Polling,D
+198,Accumulator (ACC) is used to,Hold intermediate ALU results,Store next instruction address,Store I/O status,Store page table entries,A
+199,Indexed addressing refers to best for,Constants,Interrupts,I/O ports,Arrays,D
+200,Ideal pipeline speedup for k stages is about,k^2,k,1/k,log k,B
+201,MIMD systems are,Multi-core / multiprocessor,Vector only,Stack machines,Single core,A
+202,Set associative cache is a compromise between,Paging and segmentation,ALU and CU,SRAM and DRAM,Direct and associative,D
+203,ISR stands for ?,Internal Storage Register,Interrupt Service Routine,Instruction Set Register,Interrupt Status Register,B
+204,Set associative cache refers to a compromrefers toe between,ALU and CU,SRAM and DRAM,Direct and associative,Paging and segmentation,C
+205,MDR holds,Only address,Only opcode,Data read from / to be written to memory,Only flags,C
+206,Branch prediction reduces,Register count,Cache size,Control hazard stalls,ALU latency,C
+207,Branch prediction reduces,Register count,ALU latency,Cache size,Control hazard stalls,D
+208,Set associative cache is a compromise between,Direct and associative,Paging and segmentation,SRAM and DRAM,ALU and CU,A
+209,Set associative cache is a compromise between,SRAM and DRAM,Paging and segmentation,Direct and associative,ALU and CU,C
+210,MDR holds,Only flags,Only address,Data read from / to be written to memory,Only opcode,C
+211,Direct mapped cache maps a memory block to ?,Only first line,Exactly one cache line,No line,Any cache line,B
+212,Segmentation suffers from,No overhead,Only internal fragmentation,No fragmentation,External fragmentation,D
+213,Flynn taxonomy: SIMD means,Multiple instruction single data,Multiple instruction multiple data,Single instruction single data,Single instruction multiple data,D
+214,Branch prediction reduces,Register count,Control hazard stalls,Cache size,ALU latency,B
+215,Main memory is commonly built using,SRAM,DRAM,Registers,EEPROM,B
+216,Data bus refers to generally,Bidirectional,Only CPU->Memory,Unidirectional,Only Memory->CPU,A
+217,Immediate addressing mode means,Address is in register,Address is in memory,Operand is in instruction,Operand is in cache,C
+218,Flynn taxonomy: SIMD means ?,Multiple instruction single data,Multiple instruction multiple data,Single instruction single data,Single instruction multiple data,D
+219,Hardwired control is,Slower but flexible,No control signals,Only for CISC,Faster but less flexible,D
+220,Flynn taxonomy: SIMD means,Multiple instruction single data,Single instruction single data,Multiple instruction multiple data,Single instruction multiple data,D
+221,Stack Pointer (SP) points to ?,Interrupt vector,Next cache line,Top of stack,Next instruction,C
+222,Microprogrammed control refers to,Always fastest,No control memory,Only for RISC,More flexible but slower,D
+223,Flynn taxonomy: SIMD means ?,Multiple instruction single data,Single instruction multiple data,Single instruction single data,Multiple instruction multiple data,B
+224,IR register stores ?,Stack top,Current instruction,Next instruction,Memory address,B
+225,Pipeline hazard due to resource conflict is,Structural hazard,Control hazard,Data hazard,Cache hazard,A
+226,Ideal pipeline speedup for k stages is about,k^2,k,1/k,log k,B
+227,Vectored interrupt means ?,Interrupts are ignored,DMA handles ISR,Only polling,Interrupt gives address of ISR,D
+228,DMA transfers data between,Device and memory,CPU and ALU,ALU and CU,Cache and registers only,A
+229,Flynn taxonomy: SIMD means ?,Single instruction multiple data,Multiple instruction single data,Single instruction single data,Multiple instruction multiple data,A
+230,ISR stands for,Interrupt Service Routine,Interrupt Status Register,Internal Storage Register,Instruction Set Register,A
+231,Branch prediction reduces ?,ALU latency,Control hazard stalls,Cache size,Register count,B
+232,Control hazard commonly arises from,Branch instructions,Move instruction,NOP,Add instruction,A
+233,Data bus is generally,Only CPU->Memory,Unidirectional,Only Memory->CPU,Bidirectional,D
+234,Relative addressing uses ?,PC + offset,Base + index,Stack pointer,Direct address,A
+235,ISR stands for ?,Interrupt Status Register,Instruction Set Register,Internal Storage Register,Interrupt Service Routine,D
+236,Immediate addressing mode means ?,Address is in register,Address is in memory,Operand is in instruction,Operand is in cache,C
+237,Auto-increment addressing is useful for,Cache mapping,Stack/arrays traversal,Branch prediction,Microprogram,B
+238,Fully associative cache requires ?,Searching all cache tags,No tag,No comparator,Only modulo,A
+239,Branch prediction reduces ?,Cache size,Control hazard stalls,ALU latency,Register count,B
+240,Control hazard commonly arises from ?,Add instruction,Branch instructions,NOP,Move instruction,B
+241,Indexed addressing is best for,Constants,I/O ports,Arrays,Interrupts,C
+242,Cache hit ratio is,1 / Hits,Hits * Misses,Hits / (Hits + Misses),Misses / Hits,C
+243,RISC instructions are generally,Only 1 byte,Fixed length,Variable length,Only microcoded,B
+244,Hardwired control is,No control signals,Faster but less flexible,Slower but flexible,Only for CISC,B
+245,DMA transfers data between,Cache and registers only,CPU and ALU,ALU and CU,Device and memory,D
+246,Programmed I/O is also called,Interrupt I/O,Spooling,Polling,DMA,C
+247,Accumulator (ACC) is used to,Hold intermediate ALU results,Store I/O status,Store next instruction address,Store page table entries,A
+248,Branch prediction reduces,Cache size,Register count,ALU latency,Control hazard stalls,D
+249,Vectored interrupt means ?,Only polling,DMA handles ISR,Interrupts are ignored,Interrupt gives address of ISR,D
+250,Immediate addressing mode means ?,Address is in register,Operand is in instruction,Address is in memory,Operand is in cache,B
+251,Fully associative cache requires ?,Searching all cache tags,No comparator,No tag,Only modulo,A
+252,Relative addressing uses,Direct address,Base + index,Stack pointer,PC + offset,D
+253,IR register stores,Next instruction,Stack top,Memory address,Current instruction,D
+254,"In 5-stage pipeline, MEM stage is used for",Register write back,Instruction decode,Data memory access,ALU execution,C
+255,Harvard architecture uses,No bus,Separate memory for data and instructions,Single shared memory,Only registers,B
+256,Hardwired control refers to,Faster but less flexible,No control signals,Only for CISC,Slower but flexible,A
+257,Stack Pointer (SP) points to ?,Next instruction,Top of stack,Interrupt vector,Next cache line,B
+258,Auto-increment addressing is useful for,Cache mapping,Microprogram,Branch prediction,Stack/arrays traversal,D
+259,Flynn taxonomy: SIMD means,Multiple instruction multiple data,Single instruction multiple data,Multiple instruction single data,Single instruction single data,B
+260,Accumulator (ACC) is used to,Store I/O status,Hold intermediate ALU results,Store next instruction address,Store page table entries,B
