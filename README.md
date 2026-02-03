@@ -23,6 +23,7 @@ Below each subject is a quick video to kickstart your learning, followed by the 
 
 4. **DSA (Data Structures & Algorithms)**
    - Video: https://www.youtube.com/watch?v=J0OvDNmAWNw&list=PLYwpaL_SFmcBHnRpS-gDIBCRGkxLMpBji&index=1&pp=iAQB
+   - [🗓️ 30-Day Study Plan](4.%20DSA/DSA_30_Day_Study_Plan.md) ⭐ **START HERE - Complete Roadmap**
    - [📖 Complete Master Notes (Comprehensive)](4.%20DSA/DSA_Complete_Master_Notes.md) ⭐ **NEW & DETAILED**
    - [⚡ Quick Revision Guide](4.%20DSA/DSA_Quick_Revision_Guide.md) ⭐ **For Last-Minute Revision**
    - [💪 Practice Problems with Detailed Solutions](4.%20DSA/DSA_Practice_Problems_with_Solutions.md) ⭐ **NEW**
