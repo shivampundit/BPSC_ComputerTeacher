@@ -25,6 +25,7 @@ Below each subject is a quick video to kickstart your learning, followed by the 
    - Video: https://www.youtube.com/watch?v=J0OvDNmAWNw&list=PLYwpaL_SFmcBHnRpS-gDIBCRGkxLMpBji&index=1&pp=iAQB
    - [📖 Complete Master Notes (Comprehensive)](4.%20DSA/DSA_Complete_Master_Notes.md) ⭐ **NEW & DETAILED**
    - [⚡ Quick Revision Guide](4.%20DSA/DSA_Quick_Revision_Guide.md) ⭐ **For Last-Minute Revision**
+   - [💪 Practice Problems with Detailed Solutions](4.%20DSA/DSA_Practice_Problems_with_Solutions.md) ⭐ **NEW**
    - [Comprehensive Theory Notes](4.%20DSA/1_DSA_BPSC_Comprehensive_Theory_Notes.md)
    - [Ultra Detailed Notes](4.%20DSA/2_DSA_BPSC_Ultra_Detailed_Notes.md)
    - [MCQ Practice Sheet](4.%20DSA/DSA_BPSC_MCQ_320_With_Explanations.md)
